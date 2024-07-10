@@ -493,6 +493,11 @@ footer {
     .services-box {
         width: 70%;
     }
+
+    .social-media a {
+        display: flexbox;
+        align-items: center;
+    }
 }
 
 /* Medium (m): Tablet */
