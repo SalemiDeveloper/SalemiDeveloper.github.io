@@ -52,6 +52,10 @@ header {
     /* border: solid 1px var(--color-02);  TESTE */
 }
 
+a:visited {
+    color: inherit;
+}
+
 .logo {
     font-size: 1.7rem;
     color: var(--text-color);
