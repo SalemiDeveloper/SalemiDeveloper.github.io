@@ -3,9 +3,296 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portifólio - Pedro Salemi</title>
+    <title>Pedro Salemi - Portfólio</title>
+    <link rel="shortcut icon" href="#" type="image/x-icon">
+
+    <!-- Box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- CTRL + ; -->
 </head>
 <body>
-    <h1>Olá Mundo</h1>
+    <header>
+        <a href="#" class="logo">Portfólio</a>
+
+        <div class="nav">
+            <a href="#home">Início</a>
+            <a href="#services">Serviços</a>
+            <a href="#portfolio">Portfólio</a>
+            <a href="#contact">Contato</a>
+            <a href="#about">Sobre</a>
+        </div>
+
+        <div class="nav-responsive">
+            <a href="#home">Início</a>
+            <a href="#services">Serviços</a>
+            <a href="#portfolio">Portfólio</a>
+            <a href="#contact">Contato</a>
+            <a href="#about">Sobre</a>
+        </div>
+
+        <div class="menu-hamburguer">
+            <div class="bar1">
+
+            </div>
+            <div class="bar2">
+
+            </div>
+            <div class="bar3">
+
+            </div>
+        </div>
+    </header>
+
+    <!-- home section -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Olá, eu sou</h3>
+            <h1>Pedro Salemi</h1>
+            <h3>Estudante e <span class="typedText"></span></h3>
+
+            <p>
+                &#x1F4DA;Cursando Análise e Desenvolvimento de Sistemas / FAETERJ-Rio / 4° Período.
+            </p>
+
+            <!-- 
+            <p>
+                &#x1F9E0;Conhecimento em Front-end, Back-end e DB
+            </p>
+            -->
+
+            <p>
+                &#x1F4A1;Interesse na área de desenvolvimento e analista de dados, mas estou aberto a novas descobertas.
+            </p>
+
+            <p>
+                &#x1F50D;Buscando uma oportunidade para dar o meu melhor.
+            </p>
+
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/pedro-salemi-911604269/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/SalemiDeveloper" target="_blank"><i class='bx bxl-github'></i></a>
+                <a href="https://www.instagram.com/salemi_pe/" target="_blank"><i class='bx bxl-instagram'></i></a>
+            </div>
+
+            <div>
+                <a href="Pedro da Cunha Salemi1.pdf" download target="_blank" class="btn">Baixar Currículo</a>
+            </div>
+        </div>
+
+        <div class="home-img">
+            <img src="img/img1.png" alt="Profile picture">
+        </div>
+    </section>
+    <!-- /home section -->
+
+    <!-- service section -->
+    <section class="services" id="services">
+        <h2>Meus <span>Serviços</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <!-- Procurar o icone que melhor define no BOXICONS -->
+                <i class='bx bx-code-alt'></i>
+                <h3>Desenvolvimento Front-end</h3>
+                <p>
+                    <i class='bx bxl-html5 icon-smaller-html'></i><i class='bx bxl-css3 icon-smaller-css'></i><i class='bx bxl-javascript icon-smaller-js'></i>
+                </p>
+
+                <p>
+                    Criação de sites simples colocando em prática meu aprendizado da faculdade.
+                    
+                </p>
+
+                <a href="#" class="btn">Read more</a>
+            </div>
+
+            <div class="services-box">
+                <!-- Procurar o icone que melhor define no BOXICONS -->
+                <i class='bx bx-code-curly' ></i>
+                <h3>Desenvolvimento Back-end</h3>
+
+                <p>
+                    <i class='bx bxl-c-plus-plus icon-smaller-c'></i>
+                    <i class='bx bxl-python icon-smaller-python'></i>
+                </p>
+
+                <p>
+                    Criação de sistemas de Estoque, Gerenciamento de Tarefas, 
+                    Controle de Usuários e outros. 
+                </p>
+
+                <a href="#" class="btn">Read more</a>
+            </div>
+
+            <div class="services-box">
+                <!-- Procurar o icone que melhor define no BOXICONS -->
+                <i class='bx bx-data'></i>
+                <h3>Banco de Dados</h3>
+
+                <p>
+                    <i class='bx bxl-postgresql icon-smaller-sql' ></i>
+                </p>
+
+                <p>
+                    Conexão de Back-end com banco de dados relacional para escalabilidade dos projetos.
+                </p>
+
+                <a href="#" class="btn">Read more</a>
+            </div>
+        </div>
+    </section>
+    <!-- /service section -->
+
+    <!-- portfólio section -->
+    <section class="portfolio" id="portfolio">
+        <h2>Últimos <span>Projetos</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="img/quarto1.jpg" alt="Portfolio 1">
+
+                <div class="portfolio-layer">
+                    <h4>Web Development</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. A provident hic alias! Officiis molestiae excepturi, ex atque similique ad minus. 
+                    </p>
+
+                    <a href="#"><i class='bx bx-link-external' ></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="img/quarto1.jpg" alt="Portfolio 2">
+
+                <div class="portfolio-layer">
+                    <h4>Web Development</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. A provident hic alias! Officiis molestiae excepturi, ex atque similique ad minus. 
+                    </p>
+
+                    <a href="#"><i class='bx bx-link-external' ></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="img/quarto1.jpg" alt="Portfolio 3">
+
+                <div class="portfolio-layer">
+                    <h4>Web Development</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. A provident hic alias! Officiis molestiae excepturi, ex atque similique ad minus. 
+                    </p>
+
+                    <a href="#"><i class='bx bx-link-external' ></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="img/quarto1.jpg" alt="Portfolio 4">
+
+                <div class="portfolio-layer">
+                    <h4>Web Development</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. A provident hic alias! Officiis molestiae excepturi, ex atque similique ad minus. 
+                    </p>
+
+                    <a href="#"><i class='bx bx-link-external' ></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="img/quarto1.jpg" alt="Portfolio 5">
+
+                <div class="portfolio-layer">
+                    <h4>Web Development</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. A provident hic alias! Officiis molestiae excepturi, ex atque similique ad minus. 
+                    </p>
+
+                    <a href="#"><i class='bx bx-link-external' ></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="img/quarto1.jpg" alt="Portfolio 6">
+
+                <div class="portfolio-layer">
+                    <h4>Web Development</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. A provident hic alias! Officiis molestiae excepturi, ex atque similique ad minus. 
+                    </p>
+
+                    <a href="#"><i class='bx bx-link-external' ></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /portfolio section -->
+
+    <!-- contact section -->
+    <section class="contact" id="contact">
+        <h2>Fale <span>Comigo</span>  <span class="texto-pequeno">(em desenvolvimento)</span></h2>
+
+        <form action="" method="post">
+            <div class="input-box">
+                <input type="text" placeholder="Nome Completo">
+                <input type="email" placeholder="Email">
+            </div>
+
+            <div class="input-box">
+                <input type="number" placeholder="Telefone">
+                <input type="text" placeholder="Assunto">
+            </div>
+
+            <textarea name="" id="" cols="30" rows="8" placeholder="Mensagem"></textarea>
+
+            <a href="#" class="btn">Enviar</a>
+        </form>
+    </section>
+    <!-- /contact section -->
+
+    <!-- about section -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="img/img1.png" alt="Sobre mim">
+        </div>
+
+        <div class="about-content">
+            <h3>Sobre Mim</h3>
+            <h1>Estudante e <span>Desenvolvedor</span></h1>
+
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint, adipisci unde, laboriosam labore veritatis provident tempora mollitia illum magnam fuga blanditiis quos dolorum quaerat dolorem facere aperiam? Reiciendis, ullam amet.
+            </p>
+
+            <a href="#" class="btn">Mais</a>
+        </div>
+    </section>
+    <!-- /about section -->
+
+    <footer>
+
+        <div class="social-media">
+            <a href="https://www.linkedin.com/in/pedro-salemi-911604269/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+            <a href="https://github.com/SalemiDeveloper" target="_blank"><i class='bx bxl-github'></i></a>
+            <a href="https://www.instagram.com/salemi_pe/" target="_blank"><i class='bx bxl-instagram'></i></a>
+        </div>
+        &nbsp&nbsp&nbsp&nbsp
+        <p>
+            Copyright &copy; 2024 by &lt;/SalemiDeveloper&gt. Créditos para Buenas
+        </p>
+
+    </footer>
 </body>
+<!-- ----- TYPING JS Link ----- -->
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+<script src="js/script.js"></script>
+
+
 </html>
