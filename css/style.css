@@ -247,9 +247,11 @@ span {
 .portfolio-container {
     display: grid;
     gap: 1.2rem;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Ajusta a largura das colunas */
 }
 
 .portfolio-box {
+    height: 90%;
     position: relative;
     border-radius: 0.6rem;
     box-shadow: 0 0 0.6rem var(--bg-color-01);
@@ -259,7 +261,11 @@ span {
 
 .portfolio-box img {
     width: 100%;
+    height: 100%;
+    object-fit: cover;  /*Ajusta a imagem para cobrir o contêiner sem distorcer */ 
     transition: 0.5s ease;
+    
+
 }
 
 .portfolio-box img:hover {
@@ -289,10 +295,15 @@ span {
 
 .portfolio-layer h4 {
     font-size: 1.8rem;
+    color:  black;
+    font-weight: bold;
 }
 
 .portfolio-layer p {
     margin: 0.2rem 0 0.5rem;
+    color: var(--bg-color-01);
+    font-weight: bolder;
+    
 }
 
 .portfolio-layer a {
