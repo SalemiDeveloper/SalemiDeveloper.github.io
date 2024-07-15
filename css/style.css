@@ -16,6 +16,14 @@
     --color-05: #232323;
 }
 
+.light-mode:root {
+    --main-color: #244cff;
+    --text-color: #000000;
+    --bg-color-01: #ffffff;
+    --bg-color-02: #e6e5e5;
+    --color-00: #5753531a;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -62,6 +70,59 @@ a:visited {
     font-weight: 600;
     cursor: default;
 }
+
+/* ------------------- TESTE -------------------------- 
+body.light {
+    background: #b0bbdb;
+  }*/
+  
+.checkbox {
+    opacity: 0;
+    position: absolute;
+}
+  
+.label {
+    background-color: #111;
+    border-radius: 50px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    padding: 5px;
+    position: relative;
+    height: 26px;
+    width: 50px;
+    transform: scale(1.5);
+  
+}
+  
+  
+.label .ball {
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    height: 22px;
+    width: 22px;
+    transform: translateX(0px);
+    transition: transform 0.2s linear;
+}
+  
+.checkbox:checked + .label .ball {
+    transform: translateX(24px);
+}
+  
+.bx-moon {
+    color: #f1c40f;
+}
+  
+.bx-sun {
+    color: #f39c12;
+}
+
+/* ---------------------------------------------------- */
 
 .nav-responsive {
     display: none;
@@ -351,6 +412,10 @@ form textarea {
 .texto-pequeno {
     font-size: 0.8rem;
     color: white;
+}
+
+.light-mode .texto-pequeno {
+    color: gray;
 }
 
 footer {

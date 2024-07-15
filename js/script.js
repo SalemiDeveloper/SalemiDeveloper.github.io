@@ -23,3 +23,12 @@ var typingEffect = new Typed(".typedText", {
     backDelay: 2000,
     loop: true
 });
+
+// ---------------------- TESTE -----------------------
+const $html = document.querySelector('html')
+const $checkbox = document.querySelector('#chk')
+
+$checkbox.addEventListener('change', function() {
+    $html.classList.toggle('light-mode')
+})
+// ----------------------------------------------------
