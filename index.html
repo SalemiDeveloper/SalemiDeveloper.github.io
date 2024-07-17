@@ -251,16 +251,16 @@
 
         <form action="https://formspree.io/f/xgvwvrzp" method="post">
             <div class="input-box">
-                <input type="text" placeholder="Nome Completo">
-                <input type="email" placeholder="Email">
+                <input type="text" placeholder="Nome Completo" name="name" required>
+                <input type="email" placeholder="Email" name="email" required>
             </div>
 
             <div class="input-box">
-                <input type="number" placeholder="Telefone">
-                <input type="text" placeholder="Assunto">
+                <input type="number" placeholder="Telefone" name="phone">
+                <input type="text" placeholder="Assunto" name="subject">
             </div>
 
-            <textarea name="" id="" cols="30" rows="8" placeholder="Mensagem"></textarea>
+            <textarea name="message" id="" cols="30" rows="8" placeholder="Mensagem"></textarea required>
 
             <button type="submit">Enviar</button>
         </form>
