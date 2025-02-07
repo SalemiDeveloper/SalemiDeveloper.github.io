@@ -17,7 +17,7 @@ function toggleMenu() {
 
 /* ----- TYPING EFFECT ----- */
 var typingEffect = new Typed(".typedText", {
-    strings: ["Estudante","Desenvolvedor"],
+    strings: ["Estagiário","Desenvolvedor"],
     typeSpeed: 100,
     backSpeed: 80,
     backDelay: 2000,
