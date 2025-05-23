@@ -288,6 +288,11 @@ span {
     color: #0d80df !important;
 }
 
+.icon-smaller-php {
+    font-size: 25px !important; /* Define o tamanho do ícone */
+    margin-right: 5px;
+}
+
 .icon-smaller-python {
     font-size: 25px !important; /* Define o tamanho do ícone */
     margin-right: 5px;
