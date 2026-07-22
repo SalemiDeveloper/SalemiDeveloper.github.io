@@ -12,3 +12,21 @@ function render() {
 
 
 render();
+initializeNavbar();
+
+function initializeNavbar() {
+
+    const navbar = document.querySelector(".navbar");
+
+    if (!navbar) return;
+
+    window.addEventListener("scroll", () => {
+
+        navbar.classList.toggle(
+            "navbar--scrolled",
+            window.scrollY > 20
+        );
+
+    });
+
+}

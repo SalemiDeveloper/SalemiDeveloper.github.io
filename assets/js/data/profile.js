@@ -1,4 +1,5 @@
 export const profile = {
+    logo: "PS",
     name: "Pedro Salemi",
     role: "Backend Developer",
     headline: "Construindo soluções web e mobile.",
