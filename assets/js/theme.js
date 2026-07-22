@@ -1,0 +1,1 @@
+// Responsabilidade do arquivo: Alternância de tema (quando adicionar).

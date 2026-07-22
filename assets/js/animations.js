@@ -1,0 +1,1 @@
+// Responsabilidade do arquivo: Scroll animations e efeitos.

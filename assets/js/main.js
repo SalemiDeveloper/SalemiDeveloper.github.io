@@ -1,0 +1,1 @@
+// Responsabilidade do arquivo: Inicialização da aplicação.

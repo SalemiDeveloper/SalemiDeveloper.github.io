@@ -1,0 +1,1 @@
+// Responsabilidade do arquivo: Consumo da API do Github.
