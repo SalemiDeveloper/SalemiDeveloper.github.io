@@ -1,1 +1,36 @@
 /* Responsabilidade do arquivo: Estilos específicos de cada seção. */
+
+.hero {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.hero .container {
+    max-width: 760px;
+}
+
+.hero__eyebrow {
+    color: var(--color-primary);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .08em;
+}
+
+.hero__title {
+    margin-top: var(--space-2);
+    font-size: clamp(3rem, 8vw, 5rem);
+    line-height: 1.05;
+}
+
+.hero__description {
+    margin-top: var(--space-3);
+    color: var(--color-text-muted);
+    font-size: 1.1rem;
+}
+
+.hero__actions {
+    display: flex;
+    gap: 1rem;
+    margin-top: var(--space-4);
+}

@@ -1,0 +1,1 @@
+// Responsabilidade do arquivo: Lê o projects.json e fornece dados.

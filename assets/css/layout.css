@@ -1,1 +1,7 @@
 /* Responsabilidade do arquivo: Containers, grid e estrutura. */
+
+.container{
+    /* O container terá no máximo 1200px, mas sempre deixará uma margem lateral de 1rem. */
+    width:min(100% - 2rem, var(--container-width)); 
+    margin-inline:auto;
+}

@@ -1,1 +1,31 @@
 /* Responsabilidade do arquivo: Cores, fontes, espaçamentos e tokens. */
+
+:root {
+    /* Colors */
+    --color-background: #0D1117;
+    --color-surface: #161B22;
+    --color-border: #30363D;
+    --color-text: #F0F6FC;
+    --color-text-muted: #8B949E;
+    --color-primary: #3B82F6;
+
+    /* Typography */
+    --font-title: "Space Grotesk", sans-serif;
+    --font-body: "Inter", sans-serif;
+
+    /* Layout */
+    --container-width: 1200px;
+
+    /* Border Radius */
+    --radius-sm: 8px;
+    --radius-md: 12px;
+    --radius-lg: 20px;
+
+    /* Spacing */
+    --space-1: .5rem;
+    --space-2: 1rem;
+    --space-3: 1.5rem;
+    --space-4: 2rem;
+    --space-5: 3rem;
+    --space-6: 4rem;
+}
