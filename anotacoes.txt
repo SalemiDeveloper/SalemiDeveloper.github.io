@@ -1,0 +1,36 @@
+- CSS - Conveção de nomes:
+.hero {}
+.hero__title{}
+.hero__subtitle {}
+.hero__buttons {}
+.project-card {}
+.project-card__image {}
+.project-card__content {}
+
+ - IDs reservadas apenas para:
+. Âncoras de navegação
+.  Elementos únicos realmente necessários.
+
+ - Organização HTML
+. Cada seção terá a mesma estrutura:
+<section id="about" class="section">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-tag">Sobre</span>
+            <h2 class="section-title">Quem sou eu</h2>
+        </div>
+        <div class="section-content">
+        </div>
+    </div>
+</section>
+
+ - Fluxo que vou adotar para desenvolvimento, em ordem:
+ 1. Estrutura HTML
+ 2. Layout CSS
+ 3. Componentes
+ 4. Responsividade
+ 5. JavaScript
+ 6. Animações
+
+ - Meu objetivo final:
+ . Quero que o visitante tenha uma impressão valiosa.
