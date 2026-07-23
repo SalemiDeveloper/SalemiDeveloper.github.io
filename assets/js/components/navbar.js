@@ -4,10 +4,12 @@ import { Button } from "./button.js";
 export function Navbar() {
     return `
         <header class="navbar">
-            <div class="container navbar__container">
-                ${navbarBrand()}
-                ${navbarNavigation()}
-                ${navbarActions()}
+            <div class="container">
+                <div class="navbar__content">
+                    ${navbarBrand()}
+                    ${navbarNavigation()}
+                    ${navbarActions()}
+                </div>
             </div>
         </header>
     `;

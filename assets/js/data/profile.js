@@ -8,3 +8,10 @@ export const profile = {
     linkedin: "https://linkedin.com/in/MEU_USUARIO",
     email: ""
 };
+
+export const status = {
+    availability: "Disponível",
+    project: "Game Tracker Mobile",
+    focus: "Arquitetura limpa",
+    next: "Docker"
+}
