@@ -1,1 +1,10 @@
 /* Responsabilidade do arquivo: Media queries */
+
+@media (max-width: 992px) {
+    .hero__content{
+        grid-template-columns:1fr;
+    }
+    .hero__right{
+        margin-top:3rem;
+    }
+}

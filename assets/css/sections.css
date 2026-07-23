@@ -3,6 +3,9 @@
     scroll-margin-top:96px;
 }
 
+/* ********************* 
+    hero
+   ********************* */
 .hero {
     min-height: calc(100vh - 72px);
     padding-top: 72px;
@@ -14,17 +17,35 @@
     max-width: 760px;
 }
 
-.hero__eyebrow {
+/* .hero__eyebrow {
     color: var(--color-primary);
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: .08em;
+} */
+
+.hero__eyebrow {
+    display: inline-block;
+    margin-bottom: 1rem;
+    font-size: .875rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .12em;
+    color: var(--color-primary);
 }
 
-.hero__title {
+/* .hero__title {
     font-size:clamp(3rem,6vw,4.5rem);
     line-height:1.05;
     letter-spacing:-0.04em;
+} */
+
+.hero__title {
+    margin-bottom: 1.5rem;
+    font-size: clamp(3rem, 6vw, 4.5rem);
+    line-height: 1.05;
+    letter-spacing: -.04em;
+    font-family: var(--font-title);
 }
 
 .hero .container {
@@ -38,22 +59,64 @@
     align-items:center;
 }
 
-.hero-panel{
+/* .hero-panel{
     padding:2rem;
     border-radius:20px;
     background:var(--color-surface);
     border:1px solid var(--color-border);
+} */
+
+.hero-panel{
+    display:flex;
+    flex-direction:column;
+    border:1px solid var(--color-border);
+    border-radius:20px;
+    background:var(--color-surface);
+    overflow:hidden;
 }
 
-.hero__description {
+/* .hero__description {
     margin-top: var(--space-3);
     color: var(--color-text-muted);
     font-size: 1.1rem;
     max-width:620px;
+} */
+
+.hero__description {
+    max-width: 620px;
+    margin-bottom: 2.5rem;
+    font-size: 1.125rem;
+    line-height: 1.8;
+    color: var(--color-text-muted);
 }
 
 .hero__actions {
     display: flex;
     gap: 1rem;
     margin-top: var(--space-4);
+}
+
+/* ********************* 
+    info-item
+   ********************* */
+.info-item{
+    padding:1.5rem;
+}
+
+.info-item:not(:last-child){
+    border-bottom:1px solid var(--color-border);
+}
+
+.info-item__label{
+    display:block;
+    margin-bottom:.5rem;
+    font-size:.8rem;
+    text-transform:uppercase;
+    letter-spacing:.08em;
+    color:var(--color-text-muted);
+}
+
+.info-item__value{
+    font-size:1rem;
+    font-weight:600;
 }

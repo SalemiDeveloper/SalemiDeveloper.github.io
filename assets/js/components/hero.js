@@ -1,5 +1,6 @@
 import { profile } from "../data/profile.js";
 import { Button } from "./button.js";
+import { InfoItem } from "./info-item.js";
 
 export function Hero() {
     return `
@@ -15,7 +16,8 @@ export function Hero() {
                         <div class="hero__actions">
                             ${Button({
                                 text:"Ver Projetos",
-                                href:"#projects"
+                                href:"#projects",
+                                variant:"primary"
                             })}
 
                             ${Button({
@@ -28,7 +30,22 @@ export function Hero() {
                     </div>
 
                     <div class="hero__right">
-                        
+                        <div class="hero-panel">
+                            ${InfoItem({
+                                label:"Status",
+                                value:profile.status.availability
+                            })}
+
+                            ${InfoItem({
+                                label:"Projeto Atual",
+                                value:profile.status.project
+                            })}
+
+                            ${InfoItem({
+                                label:"Aprendendo",
+                                value:profile.status.next
+                            })}
+                        <div>
                     </div>
                 </div>
             </div>
