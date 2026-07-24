@@ -1,15 +1,19 @@
 // Responsabilidade do arquivo: Inicialização da aplicação.
 
+import { Layout } from "./components/layout.js";
 import { Navbar } from "./components/navbar.js";
 import { Hero } from "./components/hero.js";
-import { Layout } from "./components/layout.js";
+import { ProjectsSection } from "./components/projects-section.js";
+import { getProjects } from "./services/projects.js";
 
-function render() {
+async function render() {
     const app = document.querySelector("#app");
+    const projects = await getProjects();
 
     app.innerHTML = Layout(`
         ${Navbar()}
         ${Hero()}
+        ${ProjectsSection(projects)}
     `);
 }
 

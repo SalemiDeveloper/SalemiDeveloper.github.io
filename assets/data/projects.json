@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "featured": true,
+        "title": "Game Tracker",
+        "description": "Aplicação web para gerenciamento de jogos com dashboard, autenticação JWT e API REST consumida por um aplicativo mobile.",
+        "stack": [
+            "PHP",
+            "MySQL",
+            "REST API",
+            "JWT"
+        ],
+        "highlights": [
+            "CRUD completo",
+            "Dashboard",
+            "Integração RAWG",
+            "API REST"
+        ],
+        "github": "https://github.com/SalemiDeveloper/game_tracker",
+        "demo": "#"
+    }
+]
