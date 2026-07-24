@@ -17,15 +17,17 @@ async function render() {
     `);
 }
 
-render();
-initialize();
+async function main() {
+    await render();
+    initialize();
+}
+
+main();
 
 function initialize() {
     initializeNavbar();
 }
-
 function initializeNavbar() {
-
     const navbar = document.querySelector(".navbar");
 
     if (!navbar) return;

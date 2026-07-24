@@ -2,8 +2,18 @@ import { Badge } from "./badge.js";
 import { Button } from "./button.js";
 
 export function ProjectCard(project) {
-    return `
+    return `        
         <article class="project-card">
+            ${
+                project.image
+                ? `
+                    <div class="project-card__image">
+                        <img src="${project.image}">
+                        alt="${project.title}"
+                    </div>    
+                ` 
+                : ""
+            }
             <header class="project-card__header">
                 <h3 class="project-card__title">${project.title}</h3>
                 ${project.featured ? 

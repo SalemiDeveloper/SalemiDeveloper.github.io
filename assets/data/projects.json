@@ -3,6 +3,7 @@
         "id": 1,
         "featured": true,
         "title": "Game Tracker",
+        "image":"",
         "description": "Aplicação web para gerenciamento de jogos com dashboard, autenticação JWT e API REST consumida por um aplicativo mobile.",
         "stack": [
             "PHP",
