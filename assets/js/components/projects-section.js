@@ -12,7 +12,7 @@ export function ProjectsSection(projects) {
             <div class="container">
 
                 ${SectionTitle({
-                    eyebrow: "Projetos",
+                    eyebrow: "",
                     title: "Projeto em destaque"
                 })}
 

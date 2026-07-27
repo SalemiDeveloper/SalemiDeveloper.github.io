@@ -118,6 +118,7 @@
 ========================================================== */
 .project-card {
     padding: 2rem;
+    margin-top: 8px;
     border: 1px solid var(--color-border);
     border-radius: 20px;
     background: var(--color-surface);
@@ -219,6 +220,7 @@
 ========================================================== */
 .info-card {
     padding: 2rem;
+    margin-top: 8px;
     background: var(--color-surface);
     border: 1px solid var(--color-border);
     border-radius: 20px;
@@ -229,7 +231,7 @@
 }
 
 .info-card:hover {
-    transform: translateY(-6px);
+    transform: translateY(-3px);
     border-color: rgba(59, 130, 246, .5);
     box-shadow: 0 12px 30px rgba(0, 0, 0, .25);
 }
