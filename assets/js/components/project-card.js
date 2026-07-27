@@ -4,16 +4,6 @@ import { Button } from "./button.js";
 export function ProjectCard(project) {
     return `        
         <article class="project-card">
-            ${
-                project.image
-                ? `
-                    <div class="project-card__image">
-                        <img src="${project.image}">
-                        alt="${project.title}"
-                    </div>    
-                ` 
-                : ""
-            }
             <header class="project-card__header">
                 <h3 class="project-card__title">${project.title}</h3>
                 ${project.featured ? 
@@ -27,15 +17,29 @@ export function ProjectCard(project) {
             </p>
 
             <div class="project-card__stack">
-                ${project.stack.map(stack => Badge(stack)).join("")}
+                ${project.stack.map(stack => Badge(stack)).join(" | ")}
             </div>
 
-            <ul class="project-card__highlights">
-                ${project.highlights
-                    .map(highlight => `<li>${highlight}</li>`)
-                    .join("")
+            <div class="project-card__content">
+                ${
+                    project.image
+                        ? `
+                            <div class="project-card__image">
+                                <img
+                                    src="${project.image}"
+                                    alt="${project.title}"
+                                >
+                            </div>
+                        `
+                        : ""
                 }
-            </ul>
+                <ul class="project-card__highlights">
+                    ${project.highlights
+                        .map(highlight => `<li>${highlight}</li>`)
+                        .join("")
+                    }
+                </ul>                
+            </div>
 
             <div class="project-card__actions">
                 ${Button({

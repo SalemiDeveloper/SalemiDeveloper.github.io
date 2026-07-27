@@ -110,13 +110,33 @@
     padding: 4rem 0;
 }
 
-.about__description {
-    max-width: 700px;
-    margin: 0 auto 4rem;
+.about__content{
+    flex:1;
+}
 
-    color: var(--color-text-muted);
-    line-height: 1.8;
-    text-align: left;
+.about__intro{
+    display:flex;
+    align-items:center;
+    gap:4rem;
+    margin-bottom:4rem;
+}
+
+.about__photo{
+    flex:0 0 260px;
+}
+
+.about__photo img{
+    width:100%;
+    display:block;
+    /* aspect-ratio:4/5; */
+    object-fit:cover;
+}
+
+.about__description{
+    max-width:700px;
+    color:var(--color-text-muted);
+    line-height:1.8;
+    text-align:left;
 }
 
 .about__grid {
