@@ -7,6 +7,7 @@ import { ProjectsSection } from "./components/projects-section.js";
 import { getProjects } from "./services/projects.js";
 import { AboutSection } from "./components/about-section.js";
 import { SkillsSection } from "./components/skills-section.js";
+import { ContactSection } from "./components/contact-section.js";
 
 async function render() {
     const app = document.querySelector("#app");
@@ -18,6 +19,7 @@ async function render() {
         ${ProjectsSection(projects)}
         ${AboutSection()}
         ${SkillsSection()}
+        ${ContactSection()}
     `);
 }
 
