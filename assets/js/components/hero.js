@@ -1,4 +1,4 @@
-import { profile } from "../data/profile.js";
+import { profile } from "../../data/profile.js";
 import { Button } from "./button.js";
 import { InfoItem } from "./info-item.js";
 

@@ -1,10 +1,11 @@
-// Responsabilidade do arquivo: Inicialização da aplicação.
+// Responsabilidade do arquivo: InicializaÃ§Ã£o da aplicaÃ§Ã£o.
 
 import { Layout } from "./components/layout.js";
 import { Navbar } from "./components/navbar.js";
 import { Hero } from "./components/hero.js";
 import { ProjectsSection } from "./components/projects-section.js";
 import { getProjects } from "./services/projects.js";
+import { AboutSection } from "./components/about-section.js";
 
 async function render() {
     const app = document.querySelector("#app");
@@ -14,6 +15,7 @@ async function render() {
         ${Navbar()}
         ${Hero()}
         ${ProjectsSection(projects)}
+        ${AboutSection()}
     `);
 }
 
