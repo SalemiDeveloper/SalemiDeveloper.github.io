@@ -2,12 +2,13 @@
 
 import { Layout } from "./components/layout.js";
 import { Navbar } from "./components/navbar.js";
-import { Hero } from "./components/hero.js";
+import { HeroSection } from "./components/hero-section.js";
 import { ProjectsSection } from "./components/projects-section.js";
 import { getProjects } from "./services/projects.js";
 import { AboutSection } from "./components/about-section.js";
 import { SkillsSection } from "./components/skills-section.js";
 import { ContactSection } from "./components/contact-section.js";
+import { FooterSection } from "./components/footer.js";
 
 async function render() {
     const app = document.querySelector("#app");
@@ -15,11 +16,12 @@ async function render() {
 
     app.innerHTML = Layout(`
         ${Navbar()}
-        ${Hero()}
+        ${HeroSection()}
         ${ProjectsSection(projects)}
         ${AboutSection()}
         ${SkillsSection()}
         ${ContactSection()}
+        ${FooterSection()}
     `);
 }
 

@@ -2,7 +2,7 @@ import { profile } from "../../data/profile.js";
 import { Button } from "./button.js";
 import { InfoItem } from "./info-item.js";
 
-export function Hero() {
+export function HeroSection() {
     return `
         <section class="hero">
             <div class="container">

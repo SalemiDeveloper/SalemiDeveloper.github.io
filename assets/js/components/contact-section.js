@@ -7,7 +7,7 @@ export function ContactSection() {
         <section class="contact section" id="contact">
             <div class="container">
                 ${SectionTitle({
-                    eyebrow: "Contato",
+                    eyebrow: "",
                     title: contact.title
                 })}
 
@@ -31,7 +31,7 @@ export function ContactSection() {
                     })}
 
                     ${Button({
-                        text: contact.email,
+                        text: "Email",
                         href: `mailto:${contact.email}`
                     })}
 
