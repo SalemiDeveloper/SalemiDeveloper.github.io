@@ -1,6 +1,6 @@
 export const skills ={
     title: "Tecnologias",
-    description: "As principais tecnologias e ferramentas utilizadas no desenvolvimento dos meu projetos",
+    description: "As principais tecnologias e ferramentas utilizadas no desenvolvimento dos meus projetos",
     categories: [
         {
             title: "Backend",
