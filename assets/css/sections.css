@@ -98,9 +98,11 @@
     padding: 4rem 0;
 }
 
-.projects__grid {
-    display: grid;
-    gap: 2rem;
+.projects__grid{
+    margin-top:2rem;
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:2rem;
 }
 
 /* ********************* 

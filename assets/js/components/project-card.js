@@ -2,53 +2,30 @@ import { Badge } from "./badge.js";
 import { Button } from "./button.js";
 
 export function ProjectCard(project) {
-    return `        
-        <article class="project-card">
+    return `
+        <article class="project-card project-card--compact">
             <header class="project-card__header">
-                <h3 class="project-card__title">${project.title}</h3>
-                ${project.featured ? 
-                    `<span class="project-card__featured">Destaque</span>` 
-                    : ""
-                }
+                <h3 class="project-card__title">
+                    ${project.title}
+                </h3>
             </header>
 
             <p class="project-card__description">
-                    ${project.description}
+                ${project.description}
             </p>
 
             <div class="project-card__stack">
-                ${project.stack.map(stack => Badge(stack)).join(" | ")}
+                ${project.stack.map(stack => Badge(stack)).join("")}
             </div>
 
-            <div class="project-card__content">
-                ${
-                    project.image
-                        ? `
-                            <div class="project-card__image">
-                                <img
-                                    src="${project.image}"
-                                    alt="${project.title}"
-                                >
-                            </div>
-                        `
-                        : ""
-                }
-                <ul class="project-card__highlights">
-                    ${project.highlights
-                        .map(highlight => `<li>${highlight}</li>`)
-                        .join("")
-                    }
-                </ul>                
-            </div>
-
-            <div class="project-card__actions">
+            <footer class="project-card__actions">
                 ${Button({
-                    text:"Github",
-                    href:project.github,
-                    variant:"secondary",
-                    target:"_blank"
+                    text: "Github",
+                    href: project.github,
+                    variant: "secondary",
+                    target: "_blank"
                 })}
-            </div>
+            </footer>
         </article>
     `;
 }
