@@ -28,6 +28,12 @@
     .container{
         padding-inline:1.25rem;
     }
+    .navbar__name{
+        display:none;
+    }
+    .navbar__nav{
+        gap:1rem;
+    }
     .hero{
         min-height:auto;
         padding-top:6rem;

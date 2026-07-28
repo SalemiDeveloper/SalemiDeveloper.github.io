@@ -33,7 +33,6 @@ function navbarNavigation() {
     return `
         <nav class="navbar__nav">
             <a href="#projects">Projetos</a>
-            <a href="#lab">Lab</a>
             <a href="#about">Sobre</a>
         </nav>
     `;
