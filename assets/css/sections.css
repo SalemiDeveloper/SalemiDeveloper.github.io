@@ -13,10 +13,6 @@
     align-items: center;
 }
 
-.hero .container {
-    max-width: 760px;
-}
-
 .hero__eyebrow {
     display: inline-block;
     margin-bottom: 1rem;
