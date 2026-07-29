@@ -15,7 +15,7 @@ export function ProjectCard(project) {
             </p>
 
             <div class="project-card__stack">
-                ${project.stack.map(stack => Badge(stack)).join("")}
+                ${project.stack.map(stack => Badge(stack)).join(" | ")}
             </div>
 
             <footer class="project-card__actions">
