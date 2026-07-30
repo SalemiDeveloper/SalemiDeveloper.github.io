@@ -4,7 +4,7 @@ import { InfoItem } from "./info-item.js";
 
 export function HeroSection() {
     return `
-        <section class="hero">
+        <section class="hero" data-reveal>
             <div class="container">
                 <div class="hero__content">
                     <div class="hero__left">

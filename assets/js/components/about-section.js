@@ -4,7 +4,7 @@ import { InfoCard } from "./info-card.js";
 
 export function AboutSection() {
     return `
-        <section class="about section" id="about">
+        <section class="about section" id="about" data-reveal>
             <div class="container">
                 ${SectionTitle({
                     eyebrow: "Conheça um pouco mais",

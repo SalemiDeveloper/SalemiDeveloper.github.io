@@ -9,6 +9,7 @@ import { AboutSection } from "./components/about-section.js";
 import { SkillsSection } from "./components/skills-section.js";
 import { ContactSection } from "./components/contact-section.js";
 import { FooterSection } from "./components/footer.js";
+import { initializeScrollRevel } from "./utils/scroll-reveal.js";
 
 async function render() {
     const app = document.querySelector("#app");
@@ -28,6 +29,7 @@ async function render() {
 async function main() {
     await render();
     initialize();
+    initializeScrollRevel();
 }
 
 main();

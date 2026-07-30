@@ -12,7 +12,7 @@ export function ProjectsSection(projects) {
     );
 
     return `
-        <section class="projects" id="projects">
+        <section class="projects" id="projects" data-reveal>
             <div class="container">
 
                 ${SectionTitle({

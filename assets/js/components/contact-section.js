@@ -4,7 +4,7 @@ import { Button } from "./button.js";
 
 export function ContactSection() {
     return `
-        <section class="contact section" id="contact">
+        <section class="contact section" id="contact" data-reveal>
             <div class="container">
                 ${SectionTitle({
                     eyebrow: "",

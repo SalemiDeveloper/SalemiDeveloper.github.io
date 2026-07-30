@@ -4,7 +4,7 @@ import { InfoCard } from "./info-card.js";
 
 export function SkillsSection() {
     return `
-        <section class="skills section" id="skills">
+        <section class="skills section" id="skills" data-reveal>
             <div class="container">
                 ${SectionTitle({
                     eyebrow: "",
