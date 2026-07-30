@@ -10,6 +10,7 @@ import { SkillsSection } from "./components/skills-section.js";
 import { ContactSection } from "./components/contact-section.js";
 import { FooterSection } from "./components/footer.js";
 import { initializeScrollRevel } from "./utils/scroll-reveal.js";
+import { initializeTheme, initializeThemeToggle } from "./services/theme.js";
 
 async function render() {
     const app = document.querySelector("#app");
@@ -27,8 +28,10 @@ async function render() {
 }
 
 async function main() {
+    initializeTheme();
     await render();
     initialize();
+    initializeThemeToggle();
     initializeScrollRevel();
 }
 

@@ -29,3 +29,20 @@
     --space-5: 3rem;
     --space-6: 4rem;
 }
+
+[data-theme="light"]{
+    --color-background:#E5EAF0;
+    --color-surface:#F4F7FA;
+    --color-surface-hover:#FFFFFF;
+    --color-text:#1F2937;
+    --color-text-muted:#64748B;
+    --color-border:#CBD5E1;
+    --color-primary:#2563EB;
+}
+
+/* [data-theme="light"] .card,
+[data-theme="light"] .project-card,
+[data-theme="light"] .hero-panel,
+[data-theme="light"] .info-card {
+    box-shadow: 0 8px 24px rgba(15, 23, 42, 0.06);
+} */

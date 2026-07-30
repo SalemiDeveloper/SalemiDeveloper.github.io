@@ -1,5 +1,6 @@
 import { profile } from "../../data/profile.js";
 import { Button } from "./button.js";
+import { ThemeToggle } from "./theme-toggle.js";
 
 export function Navbar() {
     return `
@@ -41,11 +42,13 @@ function navbarNavigation() {
 function navbarActions() {
     return `
         <div class="navbar__actions">
+            ${ThemeToggle()}
+
             ${Button({
-                text:"Github",
-                href:profile.github,
-                variant:"secondary",
-                target:"_blank"
+                text: "Github",
+                href: profile.github,
+                variant: "secondary",
+                target: "_blank"
             })}
         </div>
     `;
