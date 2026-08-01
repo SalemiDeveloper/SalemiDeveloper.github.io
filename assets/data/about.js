@@ -1,9 +1,9 @@
 export const about = {
     title: "Sobre",
     description: `
-        Desenvolvedor Backend/Mobile focado em construir aplicações/soluções 
-        escaláveis e APIs REST utilizando PHP. Aplicando boas práticas de arquitetura 
-        e desenvolvimento, código limpo, organizado e fácil manutenção.
+        Desenvolvedor de software apaixonado por tecnologia e por criar soluções que 
+        simplificam problemas reais. Atuo no desenvolvimento de aplicações Web/Mobile e APIs REST, 
+        sempre buscando desenvolver sistemas com código limpo, boa arquitetura e foco na experiência do usuário.
     `,
 
     cards: [
