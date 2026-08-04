@@ -44,6 +44,12 @@ export function FeaturedProjectCard(featured) {
                     variant:"secondary",
                     target:"_blank"
                 })}
+
+                ${Button({
+                    text:"Ver cases",
+                    href:`case.html?project=${featured.slug}`,
+                    variant:"secondary"
+                })}
             </div>
         </article>
     `;

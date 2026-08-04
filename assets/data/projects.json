@@ -3,12 +3,12 @@
         "id": 1,
         "featured": true,
         "title": "Game Tracker",
+        "slug":"game-tracker",
         "image":"assets/images/game_tracker.png",
         "description": "Aplicação web para gerenciamento de jogos com dashboard, autenticação JWT e API REST consumida por um aplicativo mobile.",
         "stack": [
             "PHP",
             "MySQL",
-            "REST API",
             "JWT"
         ],
         "highlights": [
@@ -24,7 +24,7 @@
         "featured": false,
         "title": "Game Tracker Mobile",
         "image": "assets/images/testea.png",
-        "description": "Aplicativo de gerenciamento de jogos consumindo API própria.",
+        "description": "Aplicativo de gerenciamento de jogos consumindo API prórpria.",
         "stack": [
             "Typescript",
             "React-Native"
@@ -41,7 +41,7 @@
         "featured": false,
         "title": "CountryHub",
         "image": "assets/images/testea.png",
-        "description": "Informações de todos os países e suas comparações.",
+        "description": "Informações de todos os páises e suas comparações.",
         "stack": [
             "REST API",
             "PHP"

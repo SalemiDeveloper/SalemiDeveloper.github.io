@@ -1,0 +1,27 @@
+[
+    {
+        "slug":"game-tracker",
+        "title":"Game Tracker",
+        "problem":"Hoje as bibliotecas digitais possuem centenas de jogos e é comum começar vários títulos sem concluir nenhum. Além disso, depois de algum tempo é difícil lembrar quais jogos já foram finalizados, quais estão em andamento ou quais ainda estão na fila.",
+        "solution":"O Game Tracker centraliza essas informações, permitindo acompanhar a biblioteca pessoal, registrar avaliações, horas jogadas, progresso e visualizar estatísticas sobre os jogos cadastrados.",
+
+        "technologies":[
+            "PHP",
+            "MySQL",
+            "JWT",
+            "Composer",
+            "API REST",
+            "JavaScript"
+        ],
+
+        "features":[
+            "CRUD",
+            "Dashboard",
+            "RAWG"
+        ],
+
+        "video":"",
+
+        "github": "https://github.com/SalemiDeveloper/game_tracker"
+    }
+]
