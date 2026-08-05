@@ -12,19 +12,67 @@
 
         "technologies":[
             "PHP",
+            "JavaScript",
             "MySQL",
             "JWT",
             "Composer",
             "API REST",
-            "JavaScript"
+            "MVC"
+            
         ],
+
+        "role": {
+            "type":"Projeto desenvolvido por mim.",
+            "description":"Desenvolvi toda a aplicação, desde a modelagem do banco de dados até a implementação do frontend, backend, API REST e integração com serviços externos."
+        },
 
         "features":[
-            "CRUD",
-            "Dashboard",
-            "RAWG"
+            "Cadastro e autenticação de usuários",
+            "CRUD completo de jogos",
+            "Dashboard com estatísticas",
+            "Busca automática utilizando RAWG",
+            "Preenchimento automático de dados",
+            "API REST protegida com JWT",
+            "Refresh Token",
+            "Proteção CSRF",
+            "Interface Responsiva"
         ],
 
+        "architecture": {
+            "description":"Arquitetura desenvolvida para facilitar a manutenção, testes e evolução do sistema. Segue uma arquitetura MVC adaptada, organizada em:",
+            "layers": [
+                "Controllers",
+                "Services",
+                "Models",
+                "Helpers",
+                "Middlewares",
+                "Core"
+            ]
+        },
+
+        "challenges": [
+            "Estruturei uma arquitetura em camadas para separar responsabilidades entre Controllers, Service e Models.",
+            "Integração com AI RAWG para possibilidade de automatizar o cadastro de jogos.",
+            "Busca em tempo real com debounce para reduzir requisições desnecessárias.",
+            "Regras de negócios condicionais para nota e horas jogadas conforme status do jogo."
+        ],
+
+        "performance": [
+            "Fetch API",
+            "Debounce",
+            "Persistência de capas",
+            "Separação em camadas"
+        ],
+
+        "scalability": [
+            "Arquitetura MVC",
+            "Composer",
+            "Namespaces",
+            "API independente",
+            "Componentes reutilizáveis"
+        ],
+
+        "image": "assets/images/game-tracker/game_tracker.png",
         "video":"",
 
         "github": "https://github.com/SalemiDeveloper/game_tracker"

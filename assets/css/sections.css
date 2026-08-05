@@ -218,31 +218,103 @@
     font-size: .9rem;
 }
 
-/* ==================== CASES ==================== */
-.case{
-    padding:8rem 0;
+/* *********************
+    Case
+********************* */
+
+.case {
+    padding: 8rem 0;
 }
 
-.case-section{
-
-    margin-top:5rem;
-
+.overview {
+    display: grid;
+    gap: 4rem;
+    margin-top: 5rem;
 }
 
-.case-section__title{
+.overview-item {
+    max-width: 800px;
+}
 
+.overview-item__title {
+    margin-bottom: 1rem;
+
+    font-size: 2rem;
+    font-family: var(--font-title);
+}
+
+.overview-item__content {
+    color: var(--color-text-muted);
+    line-height: 1.9;
+}
+
+/* *********************
+    Case Header
+********************* */
+
+.case-header{
+    max-width:900px;
+
+    margin-bottom:5rem;
+}
+
+.case-header__eyebrow{
+    display:inline-block;
+
+    margin-bottom:1rem;
+
+    font-size:.875rem;
+    font-weight:600;
+    text-transform:uppercase;
+    letter-spacing:.12em;
+
+    color:var(--color-primary);
+}
+
+.case-header__title{
     margin-bottom:1.5rem;
-
-    font-size:2rem;
-
+    font-size:clamp(3rem, 6vw, 4.5rem);
+    line-height:1.05;
+    letter-spacing:-.04em;
+    font-family:var(--font-title);
 }
 
-.case-section__content{
-
-    max-width:800px;
-
+.case-header__description{
+    max-width:760px;
+    margin-bottom:2rem;
+    font-size:1.125rem;
     line-height:1.9;
-
     color:var(--color-text-muted);
+}
 
+.case-header__actions{
+    display:flex;
+    flex-wrap:wrap;
+    gap:1rem;
+}
+
+/* *********************
+    Role
+********************* */
+
+.role{
+    margin-top:5rem;
+    max-width:900px;
+}
+
+.role__title{
+    margin-bottom:1.5rem;
+    font-size:2rem;
+    font-family:var(--font-title);
+}
+
+.role__type{
+    margin-bottom:1rem;
+    font-weight:600;
+    color:var(--color-text);
+}
+
+.role__description{
+    color:var(--color-text-muted);
+    line-height:1.9;
 }

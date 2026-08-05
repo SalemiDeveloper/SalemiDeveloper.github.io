@@ -1,13 +1,21 @@
 import { CaseHeader } from "./case-header.js";
 import { OverviewSection } from "./overview-section.js";
+import { RoleSection } from "./role-section.js";
+import { Button } from "./button.js";
 
 export function CasePage(project) {
     return `
-        <div class="case">
+        <section class="case">
             <div class="container">
+           ${Button({
+                text: "← Voltar para os projetos",
+                href: "index.html#projects",
+                variant: "ghost"
+            })}
                 ${CaseHeader(project)}
                 ${OverviewSection(project)}
+                ${RoleSection(project)}
             </div>
-        </div>
+        </section>
     `;
 }

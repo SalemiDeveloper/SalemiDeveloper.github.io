@@ -1,4 +1,4 @@
-/* Responsabilidade do arquivo: Botões, cards, badges, navbar... */
+/* Responsabilidade do arquivo: BotÃµes, cards, badges, navbar... */
 
 /* ==========================================================
    BUTTON
@@ -31,6 +31,17 @@
 .button--secondary:hover {
     transform: translateY(-2px);
     border-color: rgba(59,130,246,.5);
+}
+
+.button--ghost{
+    padding:0;
+    background:none;
+    border:none;
+    color:var(--color-text-muted);
+}
+
+.button--ghost:hover{
+    color:var(--color-primary);
 }
 
 /* ==========================================================

@@ -16,10 +16,6 @@ export function CaseHeader(project) {
                 ${project.description}
             </p>
 
-            <div class="case-header__stack">
-                ${project.technologies.map(Badge).join(" | ")}
-            </div>
-
             <div class="case-header__actions">
                 ${Button({
                     text:"Github",
