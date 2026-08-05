@@ -2,8 +2,13 @@
     {
         "slug":"game-tracker",
         "title":"Game Tracker",
-        "problem":"Hoje as bibliotecas digitais possuem centenas de jogos e È comum comeÁar v·rios tÌtulos sem concluir nenhum. AlÈm disso, depois de algum tempo È difÌcil lembrar quais jogos j· foram finalizados, quais est„o em andamento ou quais ainda est„o na fila.",
-        "solution":"O Game Tracker centraliza essas informaÁıes, permitindo acompanhar a biblioteca pessoal, registrar avaliaÁıes, horas jogadas, progresso e visualizar estatÌsticas sobre os jogos cadastrados.",
+        "description":"Aplica√ß√£o web para gerenciamento de biblioteca de jogos.",
+        "overview": {
+            "problem":"Hoje as bibliotecas digitais possuem centenas de jogos e √© comum come√ßar v√°rios t√≠tulos sem concluir nenhum. Al√©m disso, depois de algum tempo √© dif√≠cil lembrar quais jogos j√° foram finalizados, quais est√£o em andamento ou quais ainda est√£o na fila.",
+            "solution":"O Game Tracker centraliza essas informa√ß√µes, permitindo acompanhar a biblioteca pessoal, registrar avalia√ß√µes, horas jogadas, progresso e visualizar estat√≠sticas sobre os jogos cadastrados.",
+            "audience":"Jogadores que desejem organizar seus jogos, acompanhar o progresso de cada t√≠tulo e manter um hist√≥rico das experi√™ncias que tiveram ao longo do tempo."
+        },
+        
 
         "technologies":[
             "PHP",

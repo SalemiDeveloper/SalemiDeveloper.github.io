@@ -1,4 +1,4 @@
-/* Responsabilidade do arquivo: Estilos específicos de cada seção. */
+/* Responsabilidade do arquivo: Estilos especï¿½ficos de cada seï¿½ï¿½o. */
 #projects{
     scroll-margin-top:96px;
 }
@@ -216,4 +216,33 @@
 .footer__copyright {
     color: var(--color-text-muted);
     font-size: .9rem;
+}
+
+/* ==================== CASES ==================== */
+.case{
+    padding:8rem 0;
+}
+
+.case-section{
+
+    margin-top:5rem;
+
+}
+
+.case-section__title{
+
+    margin-bottom:1.5rem;
+
+    font-size:2rem;
+
+}
+
+.case-section__content{
+
+    max-width:800px;
+
+    line-height:1.9;
+
+    color:var(--color-text-muted);
+
 }
