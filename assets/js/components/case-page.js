@@ -1,6 +1,7 @@
 import { CaseHeader } from "./case-header.js";
 import { OverviewSection } from "./overview-section.js";
 import { RoleSection } from "./role-section.js";
+import { ContributionSection } from "./contributions-section.js";
 import { Button } from "./button.js";
 
 export function CasePage(project) {
@@ -15,6 +16,7 @@ export function CasePage(project) {
                 ${CaseHeader(project)}
                 ${OverviewSection(project)}
                 ${RoleSection(project)}
+                ${ContributionSection(project)}
             </div>
         </section>
     `;

@@ -1,4 +1,4 @@
-/* Responsabilidade do arquivo: Estilos espec�ficos de cada se��o. */
+/* Responsabilidade do arquivo: Estilos especï¿½ficos de cada seï¿½ï¿½o. */
 #projects{
     scroll-margin-top:96px;
 }
@@ -317,4 +317,44 @@
 .role__description{
     color:var(--color-text-muted);
     line-height:1.9;
+}
+
+/* *********************
+    Contributions
+********************* */
+
+.contributions{
+    margin-top:5rem;
+}
+
+.contributions__title{
+    margin-bottom:2rem;
+    font-size:2rem;
+    font-family:var(--font-title);
+}
+
+.contributions__list{
+    display:grid;
+    gap:1rem;
+    list-style:none;
+    padding:0;
+    max-width:700px;
+}
+
+.contributions__list li{
+    display:flex;
+    align-items:center;
+    gap:1rem;
+    padding:1rem 1.25rem;
+    border:1px solid var(--color-border);
+    border-radius:14px;
+    background:var(--color-surface);
+
+}
+
+.contributions__list li::before{
+    content:"✓";
+    color:var(--color-primary);
+    font-weight:700;
+
 }
