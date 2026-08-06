@@ -479,3 +479,74 @@
     font-size:1.5rem;
     font-weight:700;
 }
+
+/* *********************
+    Challenges
+********************* */
+
+.challenges{
+    margin-top:5rem;
+}
+
+.challenges__title{
+    margin-bottom:2rem;
+
+    font-size:2rem;
+
+    font-family:var(--font-title);
+}
+
+.challenges__grid{
+    display:grid;
+    gap:2rem;
+}
+
+.challenge-card{
+
+    padding:2rem;
+
+    border:1px solid var(--color-border);
+
+    border-radius:20px;
+
+    background:var(--color-surface);
+
+}
+
+.challenge-card__title{
+
+    margin-bottom:2rem;
+
+    color:var(--color-primary);
+
+    font-size:1.25rem;
+
+}
+
+.challenge-card__block:not(:last-child){
+
+    margin-bottom:1.5rem;
+
+}
+
+.challenge-card__block h4{
+
+    margin-bottom:.5rem;
+
+    font-size:.95rem;
+
+    text-transform:uppercase;
+
+    letter-spacing:.08em;
+
+    color:var(--color-text);
+
+}
+
+.challenge-card__block p{
+
+    color:var(--color-text-muted);
+
+    line-height:1.8;
+
+}

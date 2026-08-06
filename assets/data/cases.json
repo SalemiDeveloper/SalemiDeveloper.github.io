@@ -85,10 +85,24 @@
         },
 
         "challenges": [
-            "Estruturei uma arquitetura em camadas para separar responsabilidades entre Controllers, Service e Models.",
-            "Integração com AI RAWG para possibilidade de automatizar o cadastro de jogos.",
-            "Busca em tempo real com debounce para reduzir requisições desnecessárias.",
-            "Regras de negócios condicionais para nota e horas jogadas conforme status do jogo."
+            {
+                "title": "Integração com a RAWG",
+                "problem": "Cadastrar jogos manualmente exigia tempo e aumentava a chance de inconsistência.",
+                "solution": "Integração com a API RAWG para buscar automaticamente capa, plataforma, gênero e outras informações.",
+                "result": "Cadastro muito mais rápido e padronizado."
+            },
+            {
+                "title": "Sistema de busca",
+                "problem": "A busca gerava muitas requisições durante a digitação do nome do jogo.",
+                "solution": "Implementei debouce utilizando JavaScript.",
+                "result" : "Menor quantidade de chamadas e experiência mais fluida."
+            },
+            {
+                "title": "Arquitetura",
+                "problem": "Era necessário manter as responsabilidades bem separadas.",
+                "solution": "Criação das camadas Controllers, Services e Models.",
+                "result": "Projeto mais organizado, reutilizável e fácil de testar."
+            }
         ],
 
         "performance": [

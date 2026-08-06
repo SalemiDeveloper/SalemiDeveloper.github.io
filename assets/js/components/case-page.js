@@ -4,6 +4,7 @@ import { RoleSection } from "./role-section.js";
 import { ContributionSection } from "./contributions-section.js";
 import { TechnologySection } from "./technology-section.js";
 import { ArchitectureSection } from "./architecture-section.js";
+import { ChallengesSection } from "./challenge-section.js";
 import { Button } from "./button.js";
 
 export function CasePage(project) {
@@ -21,6 +22,7 @@ export function CasePage(project) {
                 ${ContributionSection(project)}
                 ${TechnologySection(project)}
                 ${ArchitectureSection(project)}
+                ${ChallengesSection(project)}
             </div>
         </section>
     `;

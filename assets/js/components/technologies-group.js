@@ -8,7 +8,7 @@ export function TechnologyGroup({ title, technologies }) {
             </h3>
 
             <div class="technology-group__badges">
-                ${technologies.map(Badge).join("")}
+                ${technologies.map(Badge).join(" | ")}
             </div>
         </article>
     `;
