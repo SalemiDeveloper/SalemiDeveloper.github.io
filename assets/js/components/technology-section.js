@@ -35,7 +35,7 @@ export function TechnologySection(project) {
                 })}
 
                 ${TechnologyGroup({
-                    title: "Integrações",
+                    title: "IntegraÃ§Ãµes",
                     technologies: project.technologies.integrations
                 })}
             </div>
