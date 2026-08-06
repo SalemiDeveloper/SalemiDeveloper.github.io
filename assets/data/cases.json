@@ -10,16 +10,32 @@
         },
         
 
-        "technologies":[
-            "PHP",
-            "JavaScript",
-            "MySQL",
-            "JWT",
-            "Composer",
-            "API REST",
-            "MVC"
-            
-        ],
+        "technologies":{
+            "backend": [
+                "PHP 8",
+                "PDO",
+                "Composer"
+            ],
+            "frontend": [
+                "JavaScript",
+                "HTML5",
+                "CSS3"
+            ],
+            "database": [
+                "MySQL"
+            ],
+            "architeture": [
+                "MVC",
+                "REST API",
+                "JWT"
+            ],
+            "quality": [
+                "PHPUnit"
+            ],
+            "integrations": [
+                "RAWG API"
+            ]
+        },
 
         "role": {
             "type":"Projeto desenvolvido por mim.",
@@ -41,12 +57,30 @@
         "architecture": {
             "description":"Arquitetura desenvolvida para facilitar a manutenção, testes e evolução do sistema. Segue uma arquitetura MVC adaptada, organizada em:",
             "layers": [
-                "Controllers",
-                "Services",
-                "Models",
-                "Helpers",
-                "Middlewares",
-                "Core"
+                {
+                    "title": "Controllers",
+                    "description": "Recebem e tratam as requisições da aplicação."
+                },
+                {
+                    "title": "Services",
+                    "description": "Concentram toda a lógica do negócio."
+                },
+                {
+                    "title": "Models",
+                    "description": "Responsáveis pela persistência de dados."
+                },
+                {
+                    "title": "Helpers",
+                    "description": "Funções utilitárias e regras de apresentação."
+                },
+                {
+                    "title": "Middlewares",
+                    "description": "Autenticação JWT e proteção de rotas."
+                },
+                {
+                    "title": "Core",
+                    "description": "Router, Validator e infraestrutura da aplicação."
+                }
             ]
         },
 
