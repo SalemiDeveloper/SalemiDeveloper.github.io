@@ -9,11 +9,7 @@ async function render() {
     const params = new URLSearchParams(window.location.search);
     const slug = params.get("project");
     const project = await getCase(slug);
-    // app.innerHTML = CasePage(project);
-    app.innerHTML = Layout(`
-        ${Navbar()}
-        ${CasePage(project)}
-    `);
+    app.innerHTML = CasePage(project);
 }
 
 render();

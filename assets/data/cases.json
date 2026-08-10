@@ -132,14 +132,9 @@
                 "image": "assets/images/game-tracker/dashboard.png"
             },
             {
-                "title": "Cadastro de jogos",
-                "description": "Formulário integrado com a RAWG API",
-                "image": "assets/images/game-tracker/create-game.png"
-            },
-            {
-                "title": "Busca",
-                "description": "Autocomplete utilizando debounce",
-                "image": "assets/images/game-tracker/search.png"
+                "title": "Jogos adicionados",
+                "description": "Jogos adicionados ao perfil.",
+                "image": "assets/images/game-tracker/jogos.png"
             }
         ]
     }
