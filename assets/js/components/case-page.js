@@ -23,8 +23,9 @@ export function CasePage(project) {
                 ${TechnologySection(project)}
                 ${ArchitectureSection(project)}
                 ${ChallengesSection(project)}
+                <p>Testetestesteste</p>
             </div>
         </section>
     `;
-    
+
 }
