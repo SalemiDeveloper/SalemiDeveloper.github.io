@@ -41,4 +41,5 @@ export function TechnologySection(project) {
             </div>
         </section>
     `;
+    
 }
