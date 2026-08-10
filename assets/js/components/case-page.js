@@ -26,4 +26,5 @@ export function CasePage(project) {
             </div>
         </section>
     `;
+    
 }
