@@ -3,25 +3,16 @@ import { SunIcon } from "../../icons/sun-icon.js";
 
 export function initializeTheme() {
     const savedTheme = localStorage.getItem("theme");
-
     document.documentElement.dataset.theme = savedTheme || "dark";
 }
 
 export function toggleTheme() {
-
     const currentTheme = document.documentElement.dataset.theme;
-
-    const newTheme =
-        currentTheme === "dark"
-            ? "light"
-            : "dark";
+    const newTheme = currentTheme === "dark" ? "light" : "dark";
 
     document.documentElement.dataset.theme = newTheme;
-
     localStorage.setItem("theme", newTheme);
-
     updateThemeButton();
-
 }
 
 export function initializeThemeToggle() {
@@ -43,7 +34,5 @@ function updateThemeButton() {
     }
 
     button.innerHTML =
-    document.documentElement.dataset.theme === "dark"
-        ? SunIcon()
-        : MoonIcon();
+    document.documentElement.dataset.theme === "dark" ? SunIcon() : MoonIcon();
 }

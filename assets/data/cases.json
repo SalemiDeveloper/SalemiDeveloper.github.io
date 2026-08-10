@@ -123,6 +123,24 @@
         "image": "assets/images/game-tracker/game_tracker.png",
         "video":"",
 
-        "github": "https://github.com/SalemiDeveloper/game_tracker"
+        "github": "https://github.com/SalemiDeveloper/game_tracker",
+
+        "gallery": [
+            {
+                "title": "Dashboard",
+                "description": "Visualização das estatísticas da biblioteca",
+                "image": "assets/images/game-tracker/dashboard.png"
+            },
+            {
+                "title": "Cadastro de jogos",
+                "description": "Formulário integrado com a RAWG API",
+                "image": "assets/images/game-tracker/create-game.png"
+            },
+            {
+                "title": "Busca",
+                "description": "Autocomplete utilizando debounce",
+                "image": "assets/images/game-tracker/search.png"
+            }
+        ]
     }
 ]

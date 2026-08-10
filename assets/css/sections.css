@@ -550,3 +550,68 @@
     line-height:1.8;
 
 }
+
+/* *********************
+    Gallery
+********************* */
+
+.gallery{
+    margin-top:5rem;
+}
+
+.gallery__title{
+    margin-bottom:2rem;
+
+    font-size:2rem;
+
+    font-family:var(--font-title);
+}
+
+.gallery__grid{
+    display:grid;
+    gap:2rem;
+}
+
+.gallery-card{
+
+    overflow:hidden;
+
+    border:1px solid var(--color-border);
+
+    border-radius:20px;
+
+    background:var(--color-surface);
+
+}
+
+.gallery-card__image{
+
+    width:100%;
+
+    display:block;
+
+    aspect-ratio:16/9;
+
+    object-fit:cover;
+
+}
+
+.gallery-card__content{
+
+    padding:1.5rem;
+
+}
+
+.gallery-card__title{
+
+    margin-bottom:.75rem;
+
+}
+
+.gallery-card__description{
+
+    color:var(--color-text-muted);
+
+    line-height:1.7;
+
+}
