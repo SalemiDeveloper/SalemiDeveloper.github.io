@@ -222,7 +222,7 @@
 ********************* */
 
 .case {
-    padding: 8rem 0;
+    padding: 3rem 0 8rem;
 }
 
 .overview {
@@ -253,20 +253,17 @@
 
 .case-header{
     max-width:900px;
-
     margin-bottom:5rem;
 }
 
 .case-header__eyebrow{
+    margin-top: 10px;
     display:inline-block;
-
     margin-bottom:1rem;
-
     font-size:.875rem;
     font-weight:600;
     text-transform:uppercase;
     letter-spacing:.12em;
-
     color:var(--color-primary);
 }
 
@@ -490,9 +487,7 @@
 
 .challenges__title{
     margin-bottom:2rem;
-
     font-size:2rem;
-
     font-family:var(--font-title);
 }
 
@@ -502,53 +497,33 @@
 }
 
 .challenge-card{
-
     padding:2rem;
-
     border:1px solid var(--color-border);
-
     border-radius:20px;
-
     background:var(--color-surface);
-
 }
 
 .challenge-card__title{
-
     margin-bottom:2rem;
-
     color:var(--color-primary);
-
     font-size:1.25rem;
-
 }
 
 .challenge-card__block:not(:last-child){
-
     margin-bottom:1.5rem;
-
 }
 
 .challenge-card__block h4{
-
     margin-bottom:.5rem;
-
     font-size:.95rem;
-
     text-transform:uppercase;
-
     letter-spacing:.08em;
-
     color:var(--color-text);
-
 }
 
 .challenge-card__block p{
-
     color:var(--color-text-muted);
-
     line-height:1.8;
-
 }
 
 /* *********************
@@ -561,9 +536,7 @@
 
 .gallery__title{
     margin-bottom:2rem;
-
     font-size:2rem;
-
     font-family:var(--font-title);
 }
 

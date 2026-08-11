@@ -346,3 +346,10 @@
     width:18px;
     height:18px;
 }
+
+.case__topbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+}
