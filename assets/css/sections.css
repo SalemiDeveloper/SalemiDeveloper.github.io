@@ -573,45 +573,39 @@
 }
 
 .gallery-card{
-
     overflow:hidden;
-
     border:1px solid var(--color-border);
-
     border-radius:20px;
-
     background:var(--color-surface);
-
 }
 
 .gallery-card__image{
-
     width:100%;
-
     display:block;
-
     aspect-ratio:16/9;
-
     object-fit:cover;
-
 }
 
 .gallery-card__content{
-
     padding:1.5rem;
-
 }
 
 .gallery-card__title{
-
     margin-bottom:.75rem;
-
 }
 
 .gallery-card__description{
-
     color:var(--color-text-muted);
-
     line-height:1.7;
+}
 
+.gallery__notice {
+    max-width: 800px;
+    margin-bottom: 2.5rem;
+    padding: 1rem 1.25rem;
+    border: 1px solid var(--color-border);
+    border-radius: 12px;
+    background: var(--color-surface);
+    color: var(--color-text-muted);
+    line-height: 1.7;
 }

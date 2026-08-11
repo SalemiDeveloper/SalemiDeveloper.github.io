@@ -129,12 +129,12 @@
             {
                 "title": "Dashboard",
                 "description": "Visualização das estatísticas da biblioteca",
-                "image": "assets/images/game-tracker/dashboard.png"
+                "image": "assets/images/game-tracker/dashboard2.png"
             },
             {
                 "title": "Jogos adicionados",
                 "description": "Jogos adicionados ao perfil.",
-                "image": "assets/images/game-tracker/jogos.png"
+                "image": "assets/images/game-tracker/cards2.png"
             }
         ]
     }

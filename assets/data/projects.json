@@ -4,7 +4,7 @@
         "featured": true,
         "title": "Game Tracker",
         "slug":"game-tracker",
-        "image":"assets/images/game-tracker/jogos.png",
+        "image":"assets/images/game-tracker/capa2.png",
         "description": "Aplicação web para gerenciamento de jogos com dashboard, autenticação JWT e API REST consumida por um aplicativo mobile.",
         "stack": [
             "PHP",

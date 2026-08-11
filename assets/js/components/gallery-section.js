@@ -6,7 +6,11 @@ export function GallerySection(project) {
             <h2 class="gallery__title">
                 Demosntração da Aplicação
             </h2>
-            <p>Infelizmente a RAWG está passando por instabilidades, então o vídeo da demonstração de cadastro de jogo com debounce vai ter que esperar um pouco.</p>
+
+            <p class="gallery__notice">
+                Infelizmente a RAWG API aparentemente está fora do ar. Enquanto desenvolvia o projeto estava ok, porém no final de semana que eu ia gravar a aplicação funcionando já era tarde demais.
+            </p>
+
             <div class="gallery__grid">
                 ${project.gallery.map(GalleryCard).join("")}
             </div>
