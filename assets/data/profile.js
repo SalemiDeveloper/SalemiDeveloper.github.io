@@ -1,7 +1,7 @@
 export const profile = {
     logo: "PS",
     name: "Pedro Salemi",
-    role: "Backend Developer",
+    role: "Software Engineer",
     headline: "Construindo soluções web e mobile.",
     description: "Desenvolvendo aplicações web, APIs REST, soluções backend e aplicações mobile, com foco em arquitetura, organização e boas práticas.",
     github: "https://github.com/SalemiDeveloper",
