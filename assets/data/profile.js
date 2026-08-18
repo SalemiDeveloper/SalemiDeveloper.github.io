@@ -10,7 +10,7 @@ export const profile = {
 
     status: {
         availability: "Disponível",
-        project: "Game Tracker Mobile",
+        project: "MeuInvest",
         next: "Laravel"
     }
 };
