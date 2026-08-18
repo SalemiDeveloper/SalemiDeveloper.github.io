@@ -88,13 +88,13 @@
             {
                 "title": "Integração com a RAWG",
                 "problem": "Cadastrar jogos manualmente exigia tempo e aumentava a chance de inconsistência.",
-                "solution": "Integração com a API RAWG para buscar automaticamente capa, plataforma, gênero e outras informações.",
+                "solution": "Integração com a API RAWG para buscar automaticamente capa, plataforma, gênero  e outras informações.",
                 "result": "Cadastro muito mais rápido e padronizado."
             },
             {
                 "title": "Sistema de busca",
                 "problem": "A busca gerava muitas requisições durante a digitação do nome do jogo.",
-                "solution": "Implementei debouce utilizando JavaScript.",
+                "solution": "Implementei debounce utilizando JavaScript.",
                 "result" : "Menor quantidade de chamadas e experiência mais fluida."
             },
             {

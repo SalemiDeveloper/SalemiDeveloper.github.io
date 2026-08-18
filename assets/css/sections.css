@@ -349,7 +349,7 @@
 }
 
 .contributions__list li::before{
-    content:"â";
+    content:"✓";
     color:var(--color-primary);
     font-weight:700;
 
