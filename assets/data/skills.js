@@ -1,34 +1,46 @@
-export const skills ={
+export const skills = {
     title: "Tecnologias",
     description: "As principais tecnologias e ferramentas utilizadas no desenvolvimento dos meus projetos",
+
     categories: [
         {
             title: "Backend",
             items: [
                 "PHP",
-                "MySQL",
+                "Laravel",
                 "REST API",
                 "JWT",
                 "PDO"
             ]
         },
         {
-            title: "Mobile",
+            title: "Frontend",
             items: [
-                "React-Native",
-                "Typescript"
+                "JavaScript",
+                "TypeScript",
+                "React",
+                "HTML5",
+                "CSS3"
             ]
         },
         {
-            title: "Ferramentas",
+            title: "Mobile",
+            items: [
+                "React Native",
+                "TypeScript",
+                "Expo"
+            ]
+        },
+        {
+            title: "Ferramentas & Infra",
             items: [
                 "Git",
+                "Docker",
                 "Composer",
                 "PHPUnit",
-                "Laragon",
-                "Expo"
-
+                "PostgreSQL",
+                "Redis"
             ]
         }
     ]
-}
+};
