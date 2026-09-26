@@ -12,6 +12,7 @@ import { FooterSection } from "./components/footer.js";
 import { initializeScrollRevel } from "./utils/scroll-reveal.js";
 import { initializeTheme, initializeThemeToggle } from "./services/theme.js";
 import { initializeSkills } from "./services/skills.js";
+import { initializeProjectsCarousel } from "./services/projects-carousel.js";
 
 async function render() {
     const app = document.querySelector("#app");
@@ -35,6 +36,7 @@ async function main() {
     initializeThemeToggle();
     initializeScrollRevel();
     initializeSkills();
+    initializeProjectsCarousel();
 }
 
 main();

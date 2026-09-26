@@ -2,32 +2,33 @@
     {
         "id": 1,
         "featured": true,
-        "title": "Game Tracker",
-        "slug":"game-tracker",
-        "image":"assets/images/game-tracker/capa2.png",
-        "description": "Aplicação web para gerenciamento de jogos com dashboard, autenticação JWT e API REST consumida por um aplicativo mobile.",
+        "title": "MeuInvest",
+        "slug":"meuinvest",
+        "image":"assets/images/meuinvest/logo2_meuinvest.png",
+        "description": "Produto desenvolvido para gerar dados baseados em relatórios importados da B3. Saiba tudo sobre seus investimentos de Renda Fixa.",
         "stack": [
             "PHP",
-            "MySQL",
-            "JWT"
+            "Laravel",
+            "PostgreSQL",
+            "Docker"
         ],
         "highlights": [
-            "CRUD completo",
-            "Dashboard",
-            "Integração RAWG",
-            "API REST"
+            "Importação de relatório da B3",
+            "Análise de investimentos de Renda Fixa",
+            "Informações eficientes e rendimentos",
+            "Visualização organizada da carteira"
         ],
-        "github": "https://github.com/SalemiDeveloper/game_tracker"
+        "github": "https://github.com/SalemiDeveloper/MeuInvest"
     },
     {
         "id": 2,
         "featured": false,
-        "title": "Game Tracker Mobile",
-        "image": "assets/images/profile.png",
-        "description": "Aplicativo de gerenciamento de jogos consumindo API prórpria.",
+        "title": "Game Tracker",
+        "image":"assets/images/game-tracker/logo_gametracker2.png",
+        "description": "Aplicação web para gerenciamento de jogos com dashboard, autenticação JWT e API REST consumida por um aplicativo mobile.",
         "stack": [
-            "Typescript",
-            "React-Native"
+            "PHP",
+            "API REST"
         ],
         "highlights": [
             "Dashboards",
@@ -38,6 +39,22 @@
     },
     {
         "id": 3,
+        "featured": false,
+        "title": "Game Tracker Mobile",
+        "image": "assets/images/profile.png",
+        "description": "Aplicativo de gerenciamento de jogos consumindo API prórpria.",
+        "stack": [
+            "Typescript",
+            "React-Native"
+        ],
+        "highlights": [
+            "Dashboards",
+            "API REST"
+        ],
+        "github": "https://github.com/SalemiDeveloper/game-tracker-mobile"
+    },
+    {
+        "id": 4,
         "featured": false,
         "title": "CountryHub",
         "image": "assets/images/profile.png",
@@ -51,6 +68,22 @@
             "API REST Countries"
         ],
         "github": "https://github.com/SalemiDeveloper/api_restcountries"
+    },
+    {
+        "id": 4,
+        "featured": false,
+        "title": "Em breve",
+        "image": "assets/images/profile.png",
+        "description": "Em construção.",
+        "stack": [
+            "...",
+            ""
+        ],
+        "highlights": [
+            "",
+            ""
+        ],
+        "github": "https://github.com/SalemiDeveloper"
     }
 
 ]
