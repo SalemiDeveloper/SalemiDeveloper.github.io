@@ -37,6 +37,11 @@ export function ProjectCard(project) {
                             variant: "secondary",
                             target: "_blank"
                         })}
+                        ${Button({
+                            text:"Ver cases",
+                            href:`case.html?project=${project.slug}`,
+                            variant:"secondary"
+                        })}
                     </footer>
 
                 </div>

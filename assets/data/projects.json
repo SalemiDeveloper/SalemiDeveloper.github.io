@@ -24,6 +24,7 @@
         "id": 2,
         "featured": false,
         "title": "Game Tracker",
+        "slug":"game-tracker",
         "image":"assets/images/game-tracker/logo_gametracker2.png",
         "description": "Aplicação web para gerenciamento de jogos com dashboard, autenticação JWT e API REST consumida por um aplicativo mobile.",
         "stack": [
@@ -35,14 +36,14 @@
             "Integração RAWG",
             "API REST"
         ],
-        "github": "https://github.com/SalemiDeveloper/game-tracker-mobile"
+        "github": "https://github.com/SalemiDeveloper/game_tracker"
     },
     {
         "id": 3,
         "featured": false,
         "title": "Game Tracker Mobile",
         "image": "assets/images/profile.png",
-        "description": "Aplicativo de gerenciamento de jogos consumindo API prórpria.",
+        "description": "Aplicativo de gerenciamento de jogos consumindo API prórpria (Game Tracker).",
         "stack": [
             "Typescript",
             "React-Native"
