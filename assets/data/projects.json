@@ -41,6 +41,22 @@
     {
         "id": 3,
         "featured": false,
+        "title": "CountryHub",
+        "image": "assets/images/profile.png",
+        "description": "Informações de todos os páises e suas comparações.",
+        "stack": [
+            "PHP",
+            "API REST"
+        ],
+        "highlights": [
+            "Dashboards",
+            "API REST Countries"
+        ],
+        "github": "https://github.com/SalemiDeveloper/api_restcountries"
+    },
+    {
+        "id": 4,
+        "featured": false,
         "title": "Game Tracker Mobile",
         "image": "assets/images/profile.png",
         "description": "Aplicativo de gerenciamento de jogos consumindo API prórpria (Game Tracker).",
@@ -53,22 +69,6 @@
             "API REST"
         ],
         "github": "https://github.com/SalemiDeveloper/game-tracker-mobile"
-    },
-    {
-        "id": 4,
-        "featured": false,
-        "title": "CountryHub",
-        "image": "assets/images/profile.png",
-        "description": "Informações de todos os páises e suas comparações.",
-        "stack": [
-            "REST API",
-            "PHP"
-        ],
-        "highlights": [
-            "Dashboards",
-            "API REST Countries"
-        ],
-        "github": "https://github.com/SalemiDeveloper/api_restcountries"
     },
     {
         "id": 4,
