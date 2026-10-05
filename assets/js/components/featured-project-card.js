@@ -46,9 +46,10 @@ export function FeaturedProjectCard(featured) {
                 })}
 
                 ${Button({
-                    text:"Ver cases",
-                    href:`case.html?project=${featured.slug}`,
-                    variant:"secondary"
+                    text: "Ver projeto",
+                    href: "https://meuinvest.netlify.app/",
+                    variant: "secondary",
+                    target: "_blank"
                 })}
             </div>
         </article>

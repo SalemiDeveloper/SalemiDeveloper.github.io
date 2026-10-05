@@ -9,8 +9,7 @@ export const skills = {
                 "PHP",
                 "Laravel",
                 "REST API",
-                "JWT",
-                "PDO"
+                "JWT"
             ]
         },
         {
@@ -18,9 +17,7 @@ export const skills = {
             items: [
                 "JavaScript",
                 "TypeScript",
-                "React",
-                "HTML5",
-                "CSS3"
+                "React"
             ]
         },
         {
@@ -38,8 +35,7 @@ export const skills = {
                 "Docker",
                 "Composer",
                 "PHPUnit",
-                "PostgreSQL",
-                "Redis"
+                "PostgreSQL"
             ]
         }
     ]

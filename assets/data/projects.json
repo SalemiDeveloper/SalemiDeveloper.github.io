@@ -8,9 +8,9 @@
         "description": "Produto desenvolvido para gerar dados baseados em relatórios importados da B3. Saiba tudo sobre seus investimentos de Renda Fixa.",
         "stack": [
             "PHP",
-            "Laravel",
+            "TypeScript",
             "PostgreSQL",
-            "Docker"
+            "React"
         ],
         "highlights": [
             "Importação de relatório da B3",
@@ -18,7 +18,7 @@
             "Informações eficientes e rendimentos",
             "Visualização organizada da carteira"
         ],
-        "github": "https://github.com/SalemiDeveloper/MeuInvest"
+        "github": "https://github.com/SalemiDeveloper/meuinvest-react"
     },
     {
         "id": 2,
@@ -42,7 +42,7 @@
         "id": 3,
         "featured": false,
         "title": "CountryHub",
-        "image": "assets/images/profile.png",
+        "image": "assets/images/countryhub/logo_countryhub_comfundo.png",
         "description": "Informações de todos os páises e suas comparações.",
         "stack": [
             "PHP",
