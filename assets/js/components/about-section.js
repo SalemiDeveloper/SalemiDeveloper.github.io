@@ -7,7 +7,7 @@ export function AboutSection(about, texts) {
         <section class="about section" id="about" data-reveal>
             <div class="container">
                 ${SectionTitle({
-                    eyebrow: texts.eyebrow,
+                    eyebrow: "",
                     title: about.title
                 })}
 
