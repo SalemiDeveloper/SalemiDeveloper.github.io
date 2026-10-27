@@ -1,8 +1,8 @@
-import { contact } from "../../data/contact.js";
+
 import { SectionTitle } from "./section-title.js";
 import { Button } from "./button.js";
 
-export function ContactSection() {
+export function ContactSection(contact, texts) {
     return `
         <section class="contact section" id="contact" data-reveal>
             <div class="container">
@@ -17,26 +17,26 @@ export function ContactSection() {
 
                 <div class="contact__actions">
                     ${Button({
-                        text: "Github",
+                        text: texts.github,
                         href: contact.github,
                         variant: "secondary",
                         target: "_blank"
                     })}
 
                     ${Button({
-                        text: "Linkedin",
+                        text: texts.linkedin,
                         href: contact.linkedin,
                         variant: "secondary",
                         target: "_blank"
                     })}
 
                     ${Button({
-                        text: "Email",
+                        text: texts.email,
                         href: `mailto:${contact.email}`
                     })}
 
                     ${Button({
-                        text: "Download CV",
+                        text: texts.downloadCV,
                         href: contact.cv,
                         target: "_blank"
                     })}

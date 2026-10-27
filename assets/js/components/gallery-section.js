@@ -1,17 +1,18 @@
+
 import { GalleryCard } from "./gallery-card.js";
 
-export function GallerySection(project) {
+export function GallerySection(project, texts) {
     return `
         <section class="gallery">
 
             <h2 class="gallery__title">
-                Demonstração da Aplicação
+                ${texts.applicationDemo}
             </h2>
 
             <div class="gallery__video">
                 <iframe
                     src="https://www.youtube.com/embed/hL-82-Rqu-4?si=lm9FgO50dW68kAej"
-                    title="Demonstração do Game Tracker"
+                    title="${texts.videoTitle}"
                     frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen

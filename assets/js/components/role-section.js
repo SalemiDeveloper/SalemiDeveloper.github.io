@@ -1,13 +1,14 @@
-export function RoleSection(project) {
+
+export function RoleSection(project, texts) {
     return `
         <section class="role">
             <h2 class="role__title">
-                Meu papel
+                ${texts.myRole}
             </h2>
 
             <p class="role__type">
                 ${project.role.type}
-            <p>
+            </p>
 
             <p class="role__description">
                 ${project.role.description}

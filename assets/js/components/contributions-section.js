@@ -1,8 +1,8 @@
-export function ContributionSection(project) {
+export function ContributionSection(project, texts) {
     return `
         <section class="contributions">
             <h2 class="contributions__title">
-                Principais Contribuições
+                ${texts.mainContributions}
             </h2>
 
             <ul class="contributions__list">

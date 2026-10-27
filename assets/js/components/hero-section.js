@@ -1,8 +1,8 @@
-import { profile } from "../../data/profile.js";
+
 import { Button } from "./button.js";
 import { InfoItem } from "./info-item.js";
 
-export function HeroSection() {
+export function HeroSection(profile, texts) {
     return `
         <section class="hero" data-reveal>
             <div class="container">
@@ -13,18 +13,19 @@ export function HeroSection() {
                         <p class="hero__description">
                             ${profile.description}
                         </p>
+
                         <div class="hero__actions">
                             ${Button({
-                                text:"Ver Projetos",
-                                href:"#projects",
-                                variant:"primary"
+                                text: texts.projectsButton,
+                                href: "#projects",
+                                variant: "primary"
                             })}
 
                             ${Button({
-                                text:"Github",
-                                href:profile.github,
-                                variant:"secondary",
-                                target:"_blank"
+                                text: "GitHub",
+                                href: profile.github,
+                                variant: "secondary",
+                                target: "_blank"
                             })}
                         </div>
                     </div>
@@ -32,9 +33,9 @@ export function HeroSection() {
                     <div class="hero__right">
                         <div class="hero-panel">
                             ${InfoItem({
-                                label:"Status",
-                                value:profile.status.availability,
-                                 icon: `
+                                label: texts.statusLabel,
+                                value: profile.status.availability,
+                                icon: `
                                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                         <circle cx="12" cy="12" r="8"/>
                                         <path d="M9 12l2 2 4-4"/>
@@ -43,8 +44,8 @@ export function HeroSection() {
                             })}
 
                             ${InfoItem({
-                                label:"Projeto Atual",
-                                value:profile.status.project,
+                                label: texts.currentProjectLabel,
+                                value: profile.status.project,
                                 icon: `
                                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                         <path d="M6 12h4"/>
@@ -57,8 +58,8 @@ export function HeroSection() {
                             })}
 
                             ${InfoItem({
-                                label:"Aprendendo",
-                                value:profile.status.next,
+                                label: texts.learningLabel,
+                                value: profile.status.next,
                                 icon: `
                                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                         <path d="M2 7l10-5 10 5-10 5-10-5z"/>
@@ -66,7 +67,7 @@ export function HeroSection() {
                                     </svg>
                                 `
                             })}
-                        <div>
+                        </div>
                     </div>
                 </div>
             </div>

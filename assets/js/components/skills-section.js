@@ -1,7 +1,7 @@
-import { skills } from "../../data/skills.js";
+
 import { SectionTitle } from "./section-title.js";
 
-export function SkillsSection() {
+export function SkillsSection(skills) {
     const technologies = skills.categories.flatMap(
         category => category.items
     );

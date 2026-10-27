@@ -1,7 +1,5 @@
-import { footer } from "../../data/footer.js";
-import { Button } from "./button.js";
 
-export function FooterSection() {
+export function FooterSection(footer) {
     return `
         <footer class="footer">
             <div class="container">

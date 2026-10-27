@@ -1,11 +1,10 @@
-import { Badge } from "./badge.js";
 import { Button } from "./button.js";
 
-export function CaseHeader(project) {
+export function CaseHeader(project, texts) {
     return `
         <header class="case-header">
             <span class="case-header__eyebrow">
-                Estudo de Caso
+                ${texts.caseStudy}
             </span>
 
             <h1 class="case-header__title">
@@ -18,19 +17,20 @@ export function CaseHeader(project) {
 
             <div class="case-header__actions">
                 ${Button({
-                    text:"Github",
-                    href:project.github,
-                    target:"_blank"
+                    text: texts.github,
+                    href: project.github,
+                    target: "_blank"
                 })}
 
                 ${
-                    project.video ?
-                    Button({
-                        text: "Ver vídeo",
-                        href:project.video,
-                        variant:"secondary",
-                        target:"_blank"
-                    }) : ""
+                    project.video
+                        ? Button({
+                            text: texts.watchVideo,
+                            href: project.video,
+                            variant: "secondary",
+                            target: "_blank"
+                        })
+                        : ""
                 }
             </div>
         </header>

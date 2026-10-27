@@ -1,10 +1,10 @@
+
 import { SectionTitle } from "./section-title.js";
 import { ProjectCard } from "./project-card.js";
 import { FeaturedProjectCard } from "./featured-project-card.js";
 import { ProjectsCarousel } from "./projects-carousel.js";
 
-export function ProjectsSection(projects) {
-
+export function ProjectsSection(projects, texts) {
     const featured = projects.find(
         project => project.featured
     );
@@ -22,18 +22,18 @@ export function ProjectsSection(projects) {
 
                 ${SectionTitle({
                     eyebrow: "",
-                    title: "Projeto em destaque"
+                    title: texts.featuredProject
                 })}
 
                 ${
                     featured
-                        ? FeaturedProjectCard(featured)
+                        ? FeaturedProjectCard(featured, texts)
                         : ""
                 }
 
                 <div class="projects__grid">
                     ${visibleProjects
-                        .map(project => ProjectCard(project))
+                        .map(project => ProjectCard(project, texts))
                         .join("")}
                 </div>
 
@@ -46,7 +46,7 @@ export function ProjectsSection(projects) {
                                     type="button"
                                     data-projects-toggle
                                 >
-                                    Ver mais projetos
+                                    ${texts.viewMoreProjects}
                                     <span>↓</span>
                                 </button>
                             </div>
@@ -55,7 +55,7 @@ export function ProjectsSection(projects) {
                                 class="projects__carousel-wrapper"
                                 data-projects-carousel
                             >
-                                ${ProjectsCarousel(carouselProjects)}
+                                ${ProjectsCarousel(carouselProjects, texts)}
                             </div>
                         `
                         : ""

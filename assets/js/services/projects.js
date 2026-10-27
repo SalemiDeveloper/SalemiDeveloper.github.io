@@ -1,7 +1,10 @@
-// Responsabilidade do arquivo: L� o projects.json e fornece dados.
 
-export async function getProjects() {
-    const response = await fetch("assets/data/projects.json");
+export async function getProjects(language = "pt") {
+    const response = await fetch(`assets/data/${language}/projects.json`);
+
+    if (!response.ok) {
+        throw new Error(`Não foi possível carregar os projetos em ${language}.`);
+    }
 
     return await response.json();
 }

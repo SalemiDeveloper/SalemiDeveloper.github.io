@@ -1,0 +1,90 @@
+
+[
+    {
+        "id": 1,
+        "featured": true,
+        "title": "MeuInvest",
+        "slug": "meuinvest",
+        "image": "assets/images/meuinvest/logo2_meuinvest.png",
+        "description": "A platform that transforms imported B3 reports into useful investment insights, helping users track and analyze their fixed-income investments.",
+        "stack": [
+            "PHP",
+            "TypeScript",
+            "PostgreSQL",
+            "React"
+        ],
+        "highlights": [
+            "B3 report import",
+            "Fixed-income investment analysis",
+            "Investment performance insights",
+            "Organized portfolio overview"
+        ],
+        "github": "https://github.com/SalemiDeveloper/meuinvest-react"
+    },
+    {
+        "id": 2,
+        "featured": false,
+        "title": "Game Tracker",
+        "slug": "game-tracker",
+        "image": "assets/images/game-tracker/logo_gametracker2.png",
+        "description": "A web application for managing a personal game library, featuring a dashboard, JWT authentication, and a REST API consumed by a mobile application.",
+        "stack": [
+            "PHP",
+            "REST API"
+        ],
+        "highlights": [
+            "Interactive dashboards",
+            "RAWG API integration",
+            "REST API development"
+        ],
+        "github": "https://github.com/SalemiDeveloper/game_tracker"
+    },
+    {
+        "id": 3,
+        "featured": false,
+        "title": "CountryHub",
+        "image": "assets/images/countryhub/logo_countryhub_comfundo.png",
+        "description": "A web application for exploring country information and comparing countries using data from an external API.",
+        "stack": [
+            "PHP",
+            "REST API"
+        ],
+        "highlights": [
+            "Country information and comparisons",
+            "REST Countries API integration"
+        ],
+        "github": "https://github.com/SalemiDeveloper/api_restcountries"
+    },
+    {
+        "id": 4,
+        "featured": false,
+        "title": "Game Tracker Mobile",
+        "image": "assets/images/profile.png",
+        "description": "A mobile application for managing a personal game library, integrated with the Game Tracker REST API.",
+        "stack": [
+            "TypeScript",
+            "React Native"
+        ],
+        "highlights": [
+            "Dashboard and game tracking",
+            "REST API integration"
+        ],
+        "github": "https://github.com/SalemiDeveloper/game-tracker-mobile"
+    },
+    {
+        "id": 4,
+        "featured": false,
+        "title": "Coming Soon",
+        "image": "assets/images/profile.png",
+        "description": "Currently in development.",
+        "stack": [
+            "...",
+            ""
+        ],
+        "highlights": [
+            "",
+            ""
+        ],
+        "github": "https://github.com/SalemiDeveloper"
+    }
+]

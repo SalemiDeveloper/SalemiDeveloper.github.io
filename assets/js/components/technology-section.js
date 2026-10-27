@@ -1,45 +1,45 @@
+
 import { TechnologyGroup } from "./technologies-group.js";
 
-export function TechnologySection(project) {
+export function TechnologySection(project, texts) {
     return `
         <section class="technology">
             <h2 class="technology__title">
-                Tecnologias
+                ${texts.technologies}
             </h2>
 
             <div class="technology__grid">
 
                 ${TechnologyGroup({
-                    title: "Backend",
+                    title: texts.backend,
                     technologies: project.technologies.backend
                 })}
 
                 ${TechnologyGroup({
-                    title: "Frontend",
+                    title: texts.frontend,
                     technologies: project.technologies.frontend
                 })}
 
                 ${TechnologyGroup({
-                    title: "Banco de Dados",
+                    title: texts.database,
                     technologies: project.technologies.database
                 })}
 
                 ${TechnologyGroup({
-                    title: "Arquitetura",
+                    title: texts.architecture,
                     technologies: project.technologies.architeture
                 })}
 
                 ${TechnologyGroup({
-                    title: "Qualidade",
+                    title: texts.quality,
                     technologies: project.technologies.quality
                 })}
 
                 ${TechnologyGroup({
-                    title: "Integrações",
+                    title: texts.integrations,
                     technologies: project.technologies.integrations
                 })}
             </div>
         </section>
     `;
-    
 }

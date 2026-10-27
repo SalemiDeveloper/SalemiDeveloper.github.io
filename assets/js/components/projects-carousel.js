@@ -1,6 +1,7 @@
+
 import { ProjectCard } from "./project-card.js";
 
-export function ProjectsCarousel(projects) {
+export function ProjectsCarousel(projects, texts) {
     if (!projects.length) {
         return "";
     }
@@ -13,7 +14,7 @@ export function ProjectsCarousel(projects) {
                     ${projects
                         .map(project => `
                             <div class="projects-carousel__slide">
-                                ${ProjectCard(project)}
+                                ${ProjectCard(project, texts)}
                             </div>
                         `)
                         .join("")}
@@ -26,7 +27,7 @@ export function ProjectsCarousel(projects) {
                     class="projects-carousel__button"
                     type="button"
                     data-carousel-prev
-                    aria-label="Projeto anterior"
+                    aria-label="${texts.previousProject}"
                 >
                     ←
                 </button>
@@ -40,7 +41,7 @@ export function ProjectsCarousel(projects) {
                                 }"
                                 type="button"
                                 data-carousel-indicator="${index}"
-                                aria-label="Ir para o projeto ${index + 1}"
+                                aria-label="${texts.goToProject} ${index + 1}"
                             ></button>
                         `)
                         .join("")}
@@ -50,7 +51,7 @@ export function ProjectsCarousel(projects) {
                     class="projects-carousel__button"
                     type="button"
                     data-carousel-next
-                    aria-label="Próximo projeto"
+                    aria-label="${texts.nextProject}"
                 >
                     →
                 </button>

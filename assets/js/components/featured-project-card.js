@@ -1,15 +1,15 @@
 import { Badge } from "./badge.js";
 import { Button } from "./button.js";
 
-export function FeaturedProjectCard(featured) {
-    return `        
+export function FeaturedProjectCard(featured, texts) {
+    return `
         <article class="project-card">
             <header class="project-card__header">
                 <h3 class="project-card__title">${featured.title}</h3>
             </header>
 
             <p class="project-card__description">
-                    ${featured.description}
+                ${featured.description}
             </p>
 
             <div class="project-card__stack">
@@ -34,19 +34,19 @@ export function FeaturedProjectCard(featured) {
                         .map(highlight => `<li>${highlight}</li>`)
                         .join("")
                     }
-                </ul>                
+                </ul>
             </div>
 
             <div class="project-card__actions">
                 ${Button({
-                    text:"Github",
-                    href:featured.github,
-                    variant:"secondary",
-                    target:"_blank"
+                    text: texts.github,
+                    href: featured.github,
+                    variant: "secondary",
+                    target: "_blank"
                 })}
 
                 ${Button({
-                    text: "Ver projeto",
+                    text: texts.viewProject,
                     href: "https://meuinvest.netlify.app/",
                     variant: "secondary",
                     target: "_blank"

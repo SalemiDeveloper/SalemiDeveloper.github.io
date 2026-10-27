@@ -1,21 +1,21 @@
+
 import { OverviewItem } from "./overview-item.js";
 
-export function OverviewSection(project) {
-
+export function OverviewSection(project, texts) {
     return `
         <section class="overview">
             ${OverviewItem({
-                title: "O Problema",
+                title: texts.problem,
                 content: project.overview.problem
             })}
 
             ${OverviewItem({
-                title: "A Solução",
+                title: texts.solution,
                 content: project.overview.solution
             })}
 
             ${OverviewItem({
-                title: "Público-alvo",
+                title: texts.targetAudience,
                 content: project.overview.audience
             })}
         </section>

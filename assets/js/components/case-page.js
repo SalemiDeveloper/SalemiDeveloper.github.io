@@ -9,14 +9,14 @@ import { GallerySection } from "./gallery-section.js";
 import { Button } from "./button.js";
 import { ThemeToggle } from "./theme-toggle.js";
 
-export function CasePage(project) {
+export function CasePage(project, texts) {
     return `
         <section class="case">
             <div class="container">
 
                 <div class="case__topbar">
                     ${Button({
-                        text: "← Voltar para os projetos",
+                        text: texts.backToProjects,
                         href: "index.html#projects",
                         variant: "secondary"
                     })}
@@ -24,14 +24,14 @@ export function CasePage(project) {
                     ${ThemeToggle()}
                 </div>
 
-                ${CaseHeader(project)}
-                ${OverviewSection(project)}
-                ${RoleSection(project)}
-                ${ContributionSection(project)}
-                ${TechnologySection(project)}
-                ${ArchitectureSection(project)}
-                ${ChallengesSection(project)}
-                ${GallerySection(project)}
+                ${CaseHeader(project, texts)}
+                ${OverviewSection(project, texts)}
+                ${RoleSection(project, texts)}
+                ${ContributionSection(project, texts)}
+                ${TechnologySection(project, texts)}
+                ${ArchitectureSection(project, texts)}
+                ${ChallengesSection(project, texts)}
+                ${GallerySection(project, texts)}
 
             </div>
         </section>

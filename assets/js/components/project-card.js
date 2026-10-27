@@ -1,7 +1,8 @@
+
 import { Badge } from "./badge.js";
 import { Button } from "./button.js";
 
-export function ProjectCard(project) {
+export function ProjectCard(project, texts) {
     return `
         <article class="project-card project-card--compact">
 
@@ -32,15 +33,16 @@ export function ProjectCard(project) {
 
                     <footer class="project-card__actions">
                         ${Button({
-                            text: "Github",
+                            text: texts.github,
                             href: project.github,
                             variant: "secondary",
                             target: "_blank"
                         })}
+
                         ${Button({
-                            text:"Ver cases",
-                            href:`case.html?project=${project.slug}`,
-                            variant:"secondary"
+                            text: texts.viewCases,
+                            href: `case.html?project=${project.slug}`,
+                            variant: "secondary"
                         })}
                     </footer>
 

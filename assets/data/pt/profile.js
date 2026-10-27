@@ -11,6 +11,6 @@ export const profile = {
     status: {
         availability: "Disponível",
         project: "MeuInvest",
-        next: "Laravel"
+        next: "Python"
     }
 };

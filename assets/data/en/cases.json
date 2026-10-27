@@ -1,0 +1,131 @@
+
+[
+    {
+        "slug": "game-tracker",
+        "title": "Game Tracker",
+        "description": "A web application for managing a personal game library.",
+        "overview": {
+            "problem": "Digital game libraries can contain hundreds of titles, making it easy to start multiple games without finishing any. Over time, it can also become difficult to remember which games have been completed, which are still in progress, and which are waiting to be played.",
+            "solution": "Game Tracker brings all this information together in one place, allowing users to manage their personal library, rate games, track playtime and progress, and view statistics about their collection.",
+            "audience": "Gamers who want to organize their libraries, track their progress across different titles, and keep a record of their gaming experiences over time."
+        },
+        "technologies": {
+            "backend": [
+                "PHP 8",
+                "PDO",
+                "Composer"
+            ],
+            "frontend": [
+                "JavaScript",
+                "HTML5",
+                "CSS3"
+            ],
+            "database": [
+                "MySQL"
+            ],
+            "architeture": [
+                "MVC",
+                "REST API",
+                "JWT"
+            ],
+            "quality": [
+                "PHPUnit"
+            ],
+            "integrations": [
+                "RAWG API"
+            ]
+        },
+        "role": {
+            "type": "Independently developed project.",
+            "description": "Developed the entire application, from database modeling to frontend and backend implementation, REST API development, and integration with external services."
+        },
+        "contributions": [
+            "User registration and authentication",
+            "Full CRUD functionality for games",
+            "Dashboard with statistics",
+            "Automatic game search using RAWG",
+            "Automatic data population",
+            "JWT-protected REST API",
+            "Refresh token support",
+            "CSRF protection",
+            "Responsive interface"
+        ],
+        "architecture": {
+            "description": "Architecture designed to simplify maintenance, testing, and future development. It follows an adapted MVC architecture organized into the following layers:",
+            "layers": [
+                {
+                    "title": "Controllers",
+                    "description": "Handle and process application requests."
+                },
+                {
+                    "title": "Services",
+                    "description": "Contain the application's business logic."
+                },
+                {
+                    "title": "Models",
+                    "description": "Handle data persistence."
+                },
+                {
+                    "title": "Helpers",
+                    "description": "Provide utility functions and presentation-related logic."
+                },
+                {
+                    "title": "Middlewares",
+                    "description": "Handle JWT authentication and route protection."
+                },
+                {
+                    "title": "Core",
+                    "description": "Contains the router, validator, and core application infrastructure."
+                }
+            ]
+        },
+        "challenges": [
+            {
+                "title": "RAWG Integration",
+                "problem": "Manually entering game information was time-consuming and increased the risk of inconsistent data.",
+                "solution": "Integrated the RAWG API to automatically retrieve cover art, platforms, genres, and other game information.",
+                "result": "Faster and more consistent game registration."
+            },
+            {
+                "title": "Search System",
+                "problem": "The search feature generated too many requests while users were typing a game title.",
+                "solution": "Implemented a debounce mechanism using JavaScript.",
+                "result": "Fewer API requests and a smoother user experience."
+            },
+            {
+                "title": "Architecture",
+                "problem": "Application responsibilities needed to be clearly separated.",
+                "solution": "Organized the application into Controllers, Services, and Models layers.",
+                "result": "A more organized, reusable, and testable codebase."
+            }
+        ],
+        "performance": [
+            "Fetch API",
+            "Debouncing",
+            "Cached cover images",
+            "Layered architecture"
+        ],
+        "scalability": [
+            "MVC architecture",
+            "Composer",
+            "Namespaces",
+            "Independent API",
+            "Reusable components"
+        ],
+        "image": "assets/images/game-tracker/game_tracker.png",
+        "video": "",
+        "github": "https://github.com/SalemiDeveloper/game_tracker",
+        "gallery": [
+            {
+                "title": "Dashboard",
+                "description": "Overview of game library statistics.",
+                "image": "assets/images/game-tracker/dashboard2.png"
+            },
+            {
+                "title": "Added Games",
+                "description": "Games added to the user's profile.",
+                "image": "assets/images/game-tracker/cards2.png"
+            }
+        ]
+    }
+]
