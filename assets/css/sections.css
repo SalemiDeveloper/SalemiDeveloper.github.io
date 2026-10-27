@@ -237,7 +237,9 @@
     }
 }
 
-/* ********************* 
+
+
+/* *********************
     contact
    ********************* */
 .contact {
@@ -245,9 +247,20 @@
     text-align: left;
 }
 
+.contact__content {
+    display: grid;
+    grid-template-columns: 280px 1fr;
+    align-items: center;
+    gap: 48px;
+}
+
+.contact__info {
+    min-width: 0;
+}
+
 .contact__description {
-    max-width: 700px;
-    margin: 0 auto 4rem;
+    max-width: 900px;
+    margin: 0 0 2rem;
     color: var(--color-text-muted);
     line-height: 1.8;
 }
@@ -255,9 +268,25 @@
 .contact__actions {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: flex-start;
     gap: 1rem;
 }
+
+.contact__visual {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact__icon {
+    width: 200px;
+    height: 200px;
+    color: var(--color-primary);
+    stroke-width: 1.2;
+    flex-shrink: 0;
+}
+
+
 
 /* ********************* 
     footer
