@@ -4,5 +4,5 @@ export const contact = {
     github: "https://github.com/SalemiDeveloper",
     linkedin: "https://linkedin.com/in/pedro-salemi-911604269/",
     email: "pedrosalemi22@gmail.com",
-    cv: "assets/files/Curriculo_Pedro_Salemi.pdf"
+    cv: "assets/files/curriculo_pedro_salemi(1).pdf"
 }
