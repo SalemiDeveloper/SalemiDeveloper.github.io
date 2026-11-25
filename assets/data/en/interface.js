@@ -3,7 +3,7 @@ export const interfaceTexts = {
     about: "About",
     projectsButton: "View Projects",
     statusLabel: "Status",
-    currentProjectLabel: "Current Project",
+    currentProjectLabel: "Current Focus",
     learningLabel: "Currently Learning",
     eyebrowAbout: "Get to Know Me",
     photoAlt: "Pedro Salemi",

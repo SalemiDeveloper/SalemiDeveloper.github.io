@@ -1,9 +1,11 @@
 export const about = {
     title: "About",
     description: `
-        Software developer passionate about technology and building solutions to real-world problems. 
-        I develop web and mobile applications, as well as REST APIs, with a focus on clean code, well-structured architecture, 
-        and delivering a great user experience.
+        Software Developer focused on creating solutions that simplify real-world problems. 
+        I have experience developing web and mobile applications, REST APIs, and backend solutions, 
+        while continuously expanding my knowledge of Data Engineering and Artificial Intelligence. 
+        I strive to build efficient, well-structured solutions by applying best practices, clean code 
+        principles, and a strong focus on user experience.
     `,
 
     cards: [
@@ -20,8 +22,8 @@ export const about = {
             title: "Backend",
             items: [
                 "PHP",
-                "MySQL",
-                "PDO",
+                "SQL",
+                "Python",
                 "JWT"
             ]
         },

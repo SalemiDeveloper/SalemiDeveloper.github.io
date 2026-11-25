@@ -1,9 +1,11 @@
 export const about = {
     title: "Sobre",
     description: `
-        Desenvolvedor de software apaixonado por tecnologia e por criar soluções que 
-        simplificam problemas reais. Atuo no desenvolvimento de aplicações Web/Mobile e APIs REST, 
-        sempre buscando desenvolver sistemas com código limpo, boa arquitetura e foco na experiência do usuário.
+        Desenvolvedor de software com foco na criação de soluções que simplificam problemas reais. 
+        Tenho experiência no desenvolvimento de aplicações Web/Mobile, APIs REST e soluções backend, 
+        além de estar expandindo meus conhecimentos em Engenharia de Dados e Inteligência Artificial. 
+        Busco desenvolver soluções eficientes e bem estruturadas, aplicando boas práticas, código limpo 
+        e atenção à experiência do usuário.
     `,
 
     cards: [
@@ -20,8 +22,8 @@ export const about = {
             title: "Backend",
             items: [
                 "PHP",
-                "MySQL",
-                "PDO",
+                "SQL",
+                "Python",
                 "JWT"
             ]
         },

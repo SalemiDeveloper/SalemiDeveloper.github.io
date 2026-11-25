@@ -7,9 +7,10 @@ export const skills = {
             title: "Backend",
             items: [
                 "PHP",
-                "Laravel",
+                "Python",
                 "REST API",
-                "JWT"
+                "JWT",
+                "ETL"
             ]
         },
         {

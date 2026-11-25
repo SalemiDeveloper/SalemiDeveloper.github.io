@@ -41,6 +41,27 @@
     {
         "id": 3,
         "featured": false,
+        "title": "Analisador de Vendas",
+        "image": "assets/images/analisador-vendas/logo_analisador.png",
+        "description": "Pipeline de dados desenvolvido em Python para extração, validação, transformação e armazenamento de dados de vendas, com geração de relatórios e indicadores para análise.",
+        "stack": [
+            "Python",
+            "SQLite",
+            "SQL",
+            "ETL"
+        ],
+        "highlights": [
+            "Pipeline ETL",
+            "Validação e tratamento de dados",
+            "Automação de processos",
+            "Relatórios e indicadores",
+            "Testes automatizados"
+        ],
+        "github": "https://github.com/SalemiDeveloper/analisador-vendas"
+    },
+    {
+        "id": 4,
+        "featured": false,
         "title": "CountryHub",
         "image": "assets/images/countryhub/logo_countryhub_comfundo.png",
         "description": "Informações de todos os páises e suas comparações.",
@@ -53,38 +74,5 @@
             "API REST Countries"
         ],
         "github": "https://github.com/SalemiDeveloper/api_restcountries"
-    },
-    {
-        "id": 4,
-        "featured": false,
-        "title": "Game Tracker Mobile",
-        "image": "assets/images/profile.png",
-        "description": "Aplicativo de gerenciamento de jogos consumindo API prórpria (Game Tracker).",
-        "stack": [
-            "Typescript",
-            "React-Native"
-        ],
-        "highlights": [
-            "Dashboards",
-            "API REST"
-        ],
-        "github": "https://github.com/SalemiDeveloper/game-tracker-mobile"
-    },
-    {
-        "id": 4,
-        "featured": false,
-        "title": "Em breve",
-        "image": "assets/images/profile.png",
-        "description": "Em construção.",
-        "stack": [
-            "...",
-            ""
-        ],
-        "highlights": [
-            "",
-            ""
-        ],
-        "github": "https://github.com/SalemiDeveloper"
     }
-
 ]

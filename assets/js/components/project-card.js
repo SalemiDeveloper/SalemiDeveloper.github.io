@@ -39,11 +39,6 @@ export function ProjectCard(project, texts) {
                             target: "_blank"
                         })}
 
-                        ${Button({
-                            text: texts.viewCases,
-                            href: `case.html?project=${project.slug}`,
-                            variant: "secondary"
-                        })}
                     </footer>
 
                 </div>
@@ -53,3 +48,9 @@ export function ProjectCard(project, texts) {
         </article>
     `;
 }
+
+// ${Button({
+//     text: texts.viewCases,
+//     href: `case.html?project=${project.slug}`,
+//     variant: "secondary"
+// })}

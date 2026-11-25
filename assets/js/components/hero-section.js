@@ -48,11 +48,9 @@ export function HeroSection(profile, texts) {
                                 value: profile.status.project,
                                 icon: `
                                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                        <path d="M6 12h4"/>
-                                        <path d="M8 10v4"/>
-                                        <path d="M15 13h.01"/>
-                                        <path d="M18 11h.01"/>
-                                        <path d="M7.5 8h9a4.5 4.5 0 0 1 4.3 5.8l-.5 1.7a2 2 0 0 1-3.3.9L15.5 15h-7l-1.5 1.4a2 2 0 0 1-3.3-.9l-.5-1.7A4.5 4.5 0 0 1 7.5 8z"/>
+                                        <path d="M3 3v18h18"/>
+                                        <path d="m6 15 4-4 3 2 6-7"/>
+                                        <path d="M14 6h5v5"/>
                                     </svg>
                                 `
                             })}

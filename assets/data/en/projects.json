@@ -42,6 +42,27 @@
     {
         "id": 3,
         "featured": false,
+        "title": "Analisador de Vendas",
+        "image": "assets/images/analisador-vendas/logo_analisador.png",
+        "description": "Data pipeline developed in Python for the extraction, validation, transformation, and storage of sales data, including the generation of reports and indicators for analysis.",
+        "stack": [
+            "Python",
+            "SQLite",
+            "SQL",
+            "ETL"
+        ],
+        "highlights": [
+            "Pipeline ETL",
+            "Data validation and processing",
+            "Process automation",
+            "Reports and indicators",
+            "Automated Testing"
+        ],
+        "github": "https://github.com/SalemiDeveloper/analisador-vendas"
+    },
+    {
+        "id": 4,
+        "featured": false,
         "title": "CountryHub",
         "image": "assets/images/countryhub/logo_countryhub_comfundo.png",
         "description": "A web application for exploring country information and comparing countries using data from an external API.",
@@ -54,37 +75,5 @@
             "REST Countries API integration"
         ],
         "github": "https://github.com/SalemiDeveloper/api_restcountries"
-    },
-    {
-        "id": 4,
-        "featured": false,
-        "title": "Game Tracker Mobile",
-        "image": "assets/images/profile.png",
-        "description": "A mobile application for managing a personal game library, integrated with the Game Tracker REST API.",
-        "stack": [
-            "TypeScript",
-            "React Native"
-        ],
-        "highlights": [
-            "Dashboard and game tracking",
-            "REST API integration"
-        ],
-        "github": "https://github.com/SalemiDeveloper/game-tracker-mobile"
-    },
-    {
-        "id": 4,
-        "featured": false,
-        "title": "Coming Soon",
-        "image": "assets/images/profile.png",
-        "description": "Currently in development.",
-        "stack": [
-            "...",
-            ""
-        ],
-        "highlights": [
-            "",
-            ""
-        ],
-        "github": "https://github.com/SalemiDeveloper"
     }
 ]
